@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Zan",
+        "relationships": [
+            {
+                "name": "Josh",
+                "status": "romantic interest"
+            },
+            {
+                "name": "Haine",
+                "status": "best friend"
+            },
+            {
+                "name": "Akari",
+                "status": "friend"
+            }
+   
+            ],
+        "desc": "A young witty man",
+        "age": "20",
+        "id": 1
+    },
+    
+    {
+        "name": "Josh",
+        "relationships": [
+            {
+                "name": "Zan",
+                "status": "romantic interest"
+            },
+            {
+                "name": "Seth",
+                "status": "friend"
+            }
+   
+            ],
+        "desc": "A cutie pie",
+        "age": "24",
+        "id": 2
+    }
+    
+]
