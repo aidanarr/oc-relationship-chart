@@ -4,6 +4,9 @@ import Xarrow from "react-xarrows";
 import Relationships from "./Relationships";
 import { useEffect } from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import List from "./List";
+
+
 
 
 function App() {
@@ -129,6 +132,7 @@ const renderRelationships = (character) => {
           </>
         }/>
           <Route path="/relationships/:name" element={<Relationships getCharaData={getCharaData} renderRelationships={renderRelationships} renderArrows2={renderArrows2}  />}/>
+          <Route path="/list" element={<List />} />
         </Routes>
 
     </>
