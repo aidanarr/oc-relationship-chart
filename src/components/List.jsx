@@ -41,7 +41,7 @@ const List = () => {
     <style>
       {`
         .clickedChara {
-          position: absolute;
+          z-index: 1;
           top: ${top}px;
           left: ${left}px;
           animation: 1s clicked 2s ease-in-out forwards;
@@ -49,13 +49,14 @@ const List = () => {
         
          @keyframes clicked {
           0% {
+            position: absolute;
             top: ${top}px;
             left: ${left}px;
         
           }
         
           100% {
-        
+            position: absolute;
             top: 50px;
             left: 40px;
           }
@@ -66,8 +67,11 @@ const List = () => {
     <div>
       <div className="ref"></div>
       <div className="div">
+      <div className={`blank ${isClicked ? "blank-top" : false}`}></div>
           {renderList()}
+          
       </div>
+      
     </div>
     </>
   )

@@ -65,11 +65,31 @@
  }
 
  .charabox {
-  position: sticky;
-  z-index: 1;
   width: fit-content;
   padding: 5px;
   border: 1px solid black;
  }
 
+ .blank {
+  display: none;
+  width: 500px;
+  height: 70px;
+  background-color: pink;
+  position: absolute;
+ }
 
+ .blank-top {
+  display:block;
+  opacity: 0;
+  animation: 0.3s blank 1s forwards;
+ }
+
+ @keyframes blank {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+ }
