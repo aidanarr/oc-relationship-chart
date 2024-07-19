@@ -66,27 +66,10 @@
 
  .charabox {
   position: sticky;
+  z-index: 1;
   width: fit-content;
   padding: 5px;
   border: 1px solid black;
  }
 
- .clickedChara {
-  position: absolute;
-  animation: 1s clicked 2s ease-in-out forwards;
- }
 
- @keyframes clicked {
-  0% {
-    top: 0px;
-    left: 0px;
-
-  }
-
-  100% {
-
-    top: 50px;
-    left: 40px;
-  }
-
- }
