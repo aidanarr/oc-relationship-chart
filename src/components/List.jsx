@@ -2,10 +2,10 @@ import datacopy from "../services/data-copy.json"
 import { useState } from "react"
 import { useRef } from "react"
 import { useEffect } from "react"
+import { useNavigate } from "react-router-dom"
 
 const List = () => {
 
-    const elem = useRef(null)
 
     const [array, setArray] = useState(datacopy)
     const [isClicked, setIsClicked] = useState()
@@ -22,12 +22,19 @@ const List = () => {
     //   }
     // }, [isClicked]);
 
+    const nav = useNavigate();
+
+
     function handleClick(ev) {
+      ev.preventDefault()
         const id = parseInt(ev.target.id);
         const rect = ev.target.getBoundingClientRect();
         setIsClicked(id)
         setTop(rect.top)
         setLeft(rect.left)
+        setTimeout(() => {
+          nav("/relationships/Zan")}, 
+          4000)
     }
     
     function renderList() {

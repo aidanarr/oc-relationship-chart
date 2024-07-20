@@ -3,7 +3,7 @@ import data from "../services/data.json"
 import Xarrow from "react-xarrows";
 import Relationships from "./Relationships";
 import { useEffect, useState } from "react";
-import { Routes, Route, Link, useNavigate } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import List from "./List";
 
 
@@ -26,13 +26,8 @@ const getCharaData = (name) => {
   return clickedChara
 }
 
-const nav = useNavigate();
-
-const handleClick = (ev, chara) => {
+const handleClick = () => {
   setClicked(!clicked)
-  setTimeout(() => {
-    nav("/relationships/" + chara)}, 
-    100)
 }
 
 const renderRelationships2 = () => {
@@ -96,16 +91,16 @@ const renderRelationships = (character) => {
 
   return relationships.map((chara, i) => {
     return (
-    <div key={i}>
-    <div onClick={(ev) => handleClick(ev, chara.name)} className="related-charas"  >
+      <>
+    <Link onClick={handleClick} className="related-charas" key={i} to={`/relationships/${chara.name}`}>
       <div  id={chara.name} className="box__div">
       <p>{chara.name}</p>
     </div>
-    </div>
+    </Link>
     <div className="legend hidden">
       <p>{chara.status}</p>
     </div>
-    </div>
+    </>
     )
   })
 }

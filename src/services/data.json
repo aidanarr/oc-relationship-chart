@@ -1,6 +1,7 @@
 [
     {
         "name": "Zan",
+        "surname": "Wang",
         "relationships": [
             {
                 "name": "Josh",
@@ -13,30 +14,1133 @@
             {
                 "name": "Akari",
                 "status": "friend"
+            },
+            {
+                "name": "Ronald",
+                "status": "acquaintance"
             }
    
             ],
         "desc": "A young witty man",
+        "pronouns": "he/him",
         "age": "20",
+        "img": "",
+        "creator": "Aida",
         "id": 1
     },
     
     {
         "name": "Josh",
+        "surname": "McKenzie",
         "relationships": [
             {
                 "name": "Zan",
                 "status": "romantic interest"
             },
             {
-                "name": "Seth",
+                "name": "Diego",
                 "status": "friend"
             }
    
             ],
-        "desc": "A cutie pie",
+        "desc": "A cutie pie.",
         "age": "24",
+        "img": "",
+        "creator": "Mizuki",
         "id": 2
+    },
+    
+    {
+        "name": "Diego",
+        "surname": "Díaz Morales",
+        "relationships": [
+            {
+                "name": "Alistair",
+                "status": "romantic interest"
+            },
+            {
+                "name": "Josh",
+                "status": "friend"
+            },
+            {
+                "name": "Alexi",
+                "status": "family (sister)"
+            },
+            {
+                "name": "Lewis",
+                "status": "friend"
+            }
+   
+            ],
+        "desc": "A puppy with big arms.",
+        "age": "24",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 3
+    },
+    
+    {
+        "name": "Alexi",
+        "surname": "Díaz Morales",
+        "relationships": [
+            {
+                "name": "Diego",
+                "status": "family (brother)"
+            },
+            {
+                "name": "Josh",
+                "status": "friend"
+            },
+            {
+                "name": "Mila",
+                "status": "romantic interest"
+            },
+            {
+                "name": "Akari",
+                "status": "friend"
+            },
+            {
+                "name": "Elle",
+                "status": "friend"
+            }
+   
+            ],
+        "desc": "Strong and charismatic woman.",
+        "age": "28",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 4
+    },
+    
+    {
+        "name": "Akari",
+        "surname": "Siena",
+        "relationships": [
+            {
+                "name": "Toru",
+                "status": "family (brother)"
+            },
+            {
+                "name": "Zan",
+                "status": "friend"
+            },
+            {
+                "name": "Kim",
+                "status": "friend, crush"
+            },
+            {
+                "name": "Alexi",
+                "status": "friend"
+            },
+            {
+                "name": "Avigayil",
+                "status": "acquaintance"
+            },
+            {
+                "name": "Haine",
+                "status": "acquaintance"
+            }
+   
+            ],
+        "desc": "Guapa, lista y espiritista.",
+        "age": "20",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 5
+    },
+    
+    {
+        "name": "Toru",
+        "surname": "Siena",
+        "relationships": [
+            {
+                "name": "Akari",
+                "status": "family (sister)"
+            },
+            {
+                "name": "Kim",
+                "status": "rival"
+            },
+            {
+                "name": "Diego",
+                "status": "friend"
+            },
+            {
+                "name": "Lewis",
+                "status": "rival"
+            }
+   
+            ],
+        "desc": "The king of nerds.",
+        "age": "23",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 6
+    },
+    
+    {
+        "name": "Kim",
+        "surname": "Adelaer",
+        "relationships": [
+            {
+                "name": "Aria",
+                "status": "family (sister)"
+            },
+            {
+                "name": "Akari",
+                "status": "friend"
+            },
+            {
+                "name": "Alain",
+                "status": "family (cousin), workmate"
+            },
+            {
+                "name": "Cornelio",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Avigayil",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Seraphim",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Mila",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Mik",
+                "status": "?"
+            }
+   
+            ],
+        "desc": "He's a surgeon and also an ecologist.",
+        "age": "23",
+        "pronouns": "he/they",
+        "img": "",
+        "creator": "Aida",
+        "id": 7
+    },
+    
+    {
+        "name": "Mik",
+        "surname": "Aledera",
+        "relationships": [
+            
+            {
+                "name": "Kim",
+                "status": "?"
+            }
+   
+            ],
+        "desc": "Kim's doppelganger.",
+        "age": "23",
+        "pronouns": "he/they",
+        "img": "",
+        "creator": "Aida",
+        "id": 8
+    },
+    
+    {
+        "name": "Aria",
+        "surname": "Adelaer",
+        "relationships": [
+            
+            {
+                "name": "Kim",
+                "status": "family (brother)"
+            },
+            {
+                "name": "Alain",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Cornelio",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Avigayil",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Seraphim",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Mila",
+                "status": "family (cousin)"
+            }
+   
+            ],
+        "desc": "Your local mean girl.",
+        "age": "18",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 9
+    },
+    
+    {
+        "name": "Avigayil",
+        "surname": "Ventfort",
+        "relationships": [
+            
+            {
+                "name": "Quinn",
+                "status": "best friend"
+            },
+            {
+                "name": "Akari",
+                "status": "rival"
+            },
+            {
+                "name": "Abel",
+                "status": "family (son)"
+            },
+            {
+                "name": "Kim",
+                "status": "annoying family (cousin)"
+            },
+            {
+                "name": "Alain",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Cornelio",
+                "status": "annoying family (cousin)"
+            },
+            {
+                "name": "Seraphim",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Mila",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Aria",
+                "status": "family (cousin)"
+            }
+   
+            ],
+        "desc": "A grumpy know-it-all.",
+        "age": "20",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 10
+    },
+    
+    {
+        "name": "Abel",
+        "surname": "Ventfort",
+        "relationships": [
+            
+            {
+                "name": "Avigayil",
+                "status": "family (mother)"
+            },
+            {
+                "name": "Nana",
+                "status": "romantic interest"
+            }
+   
+            ],
+        "desc": "Coffee-lover, emotional and intense.",
+        "age": "19 (2nd gen)",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 11
+    },
+    
+    {
+        "name": "Haine",
+        "surname": "Beckett",
+        "relationships": [
+            
+            {
+                "name": "Zan",
+                "status": "friend"
+            },
+            {
+                "name": "Ronald",
+                "status": "partner"
+            },
+            {
+                "name": "Akari",
+                "status": "rival"
+            },
+            {
+                "name": "Jamie",
+                "status": "family (son)"
+            }
+   
+            ],
+        "desc": "Cute and mischievous.",
+        "age": "20",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Beailish",
+        "id": 12
+    },
+    
+    {
+        "name": "Ronald",
+        "surname": "Matthews",
+        "relationships": [
+            {
+                "name": "Haine",
+                "status": "partner"
+            },            
+            {
+                "name": "Zan",
+                "status": "acquaintance"
+            },
+            {
+                "name": "Jamie",
+                "status": "family (son)"
+            }
+   
+            ],
+        "desc": "Former punk, a bit grumpy.",
+        "age": "21",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 13
+    },
+    
+    {
+        "name": "Jamie",
+        "surname": "Beckett",
+        "relationships": [
+            {
+                "name": "Haine",
+                "status": "family (mother)"
+            },            
+            {
+                "name": "Ronald",
+                "status": "family (father)"
+            },
+            {
+                "name": "Kazui",
+                "status": "friend"
+            }
+   
+            ],
+        "desc": "The son of devil himself.",
+        "age": "17 (2nd gen)",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida, Beailish",
+        "id": 14
+    },
+    {
+        "name": "Cornelio",
+        "surname": "Aura",
+        "relationships": [
+            {
+                "name": "Erik",
+                "status": "best friend"
+            },            
+            {
+                "name": "Alain",
+                "status": "fav family (cousin)"
+            },
+            {
+                "name": "Astaroth",
+                "status": "friend"
+            },
+            {
+                "name": "Kim",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Avigayil",
+                "status": "family family (cousin)"
+            },
+            {
+                "name": "Seraphim",
+                "status": "family family (cousin)"
+            },
+            {
+                "name": "Mila",
+                "status": "family family (cousin)"
+            },
+            {
+                "name": "Aria",
+                "status": "family family (cousin)"
+            },
+            {
+                "name": "Oliver",
+                "status": "rival"
+            }
+   
+            ],
+        "desc": "The (fabulous) king of rats.",
+        "age": "30",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 15
+    },
+    {
+        "name": "Erik",
+        "surname": "?",
+        "relationships": [
+            {
+                "name": "Cornelio",
+                "status": "best friend"
+            }
+   
+            ],
+        "desc": "Good-hearted and tired.",
+        "age": "30",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 16
+    },
+    {
+        "name": "Seraphim",
+        "surname": "?",
+        "relationships": [
+            {
+                "name": "Lyatrix",
+                "status": "friend"
+            },
+            {
+                "name": "Ahmitia",
+                "status": "friend"
+            },
+            {
+                "name": "Marcus",
+                "status": "friend"
+            },            
+            {
+                "name": "Alain",
+                "status": "family family (cousin)"
+            },
+            {
+                "name": "Cornelio",
+                "status": "family family (cousin)"
+            },
+            {
+                "name": "Kim",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Avigayil",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Mila",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Aria",
+                "status": "family (cousin)"
+            }
+   
+            ],
+        "desc": "Oh my god they're crazy.",
+        "age": "22",
+        "pronouns": "they/them",
+        "img": "",
+        "creator": "Aida",
+        "id": 17
+    },
+    {
+        "name": "Mila",
+        "surname": "?",
+        "relationships": [
+            {
+                "name": "Daphne",
+                "status": "friend"
+            },
+            {
+                "name": "Alexi",
+                "status": "romantic interest"
+            },           
+            {
+                "name": "Alain",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Cornelio",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Kim",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Aria",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Avigayil",
+                "status": "family (cousin)"
+            },
+            {
+                "name": "Seraphim",
+                "status": "family (cousin)"
+            }
+   
+            ],
+        "desc": "Don't mess with her.",
+        "age": "27",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 18
+    },
+    {
+        "name": "Fausto",
+        "surname": "Feidh",
+        "relationships": [
+            {
+                "name": "Felicia",
+                "status": "family (daughter)"
+            },          
+            {
+                "name": "Alain",
+                "status": "friend, workmate"
+            },
+            {
+                "name": "Daphne",
+                "status": "acquaintance, workmate"
+            },
+            {
+                "name": "Kim",
+                "status": "acquaintance, workmate"
+            }
+   
+            ],
+        "desc": "Your trusty doctor Fausto.",
+        "age": "36",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 19
+    },
+    {
+        "name": "Felicia",
+        "surname": "Feidh",
+        "relationships": [
+            {
+                "name": "Fausto",
+                "status": "family (father)"
+            },          
+            {
+                "name": "Nana",
+                "status": "best friend"
+            },
+            {
+                "name": "Hugo",
+                "status": "family (cousin)"
+            }
+   
+            ],
+        "desc": "A soft and weird girl.",
+        "age": "2 (1st gen), 25 (2nd gen)",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 20
+    },
+    {
+        "name": "Hugo",
+        "surname": "Feidh",
+        "relationships": [
+            {
+                "name": "Fausto",
+                "status": "family (uncle)"
+            },          
+            {
+                "name": "Felicia",
+                "status": "family (cousin)"
+            }
+   
+            ],
+        "desc": "He's full of energy.",
+        "age": "2 (1st gen), 25 (2nd gen)",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 21
+    },
+    {
+        "name": "Edgar",
+        "surname": "Andrews",
+        "relationships": [
+            {
+                "name": "Oliver",
+                "status": "romantic interest"
+            },          
+            {
+                "name": "Audrey",
+                "status": "best friend"
+            },  
+            {
+                "name": "Simon",
+                "status": "family (son)"
+            },        
+            {
+                "name": "Anthony",
+                "status": "acquaintance (student)"
+            },          
+            {
+                "name": "Maeve",
+                "status": "acquaintance (student)"
+            }
+   
+            ],
+        "desc": "Shy and clumsy. Loves wearing suits.",
+        "age": "33",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 22
+    },
+    {
+        "name": "Oliver",
+        "surname": "Dawson",
+        "relationships": [
+            {
+                "name": "Edgar",
+                "status": "romantic interest"
+            },          
+            {
+                "name": "Josh",
+                "status": "friend"
+            }, 
+            {
+                "name": "Alistair",
+                "status": "friend"
+            }, 
+            {
+                "name": "Cornelio",
+                "status": "acquaintance"
+            }, 
+            {
+                "name": "Teodosio",
+                "status": "friend"
+            }            
+   
+            ],
+        "desc": "A ray of sunshine with a beautiful voice.",
+        "age": "29",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 23
+    },
+    {
+        "name": "Audrey",
+        "surname": "Woods",
+        "relationships": [
+            {
+                "name": "Edgar",
+                "status": "friend"
+            },          
+            {
+                "name": "Elle",
+                "status": "romantic interest"
+            }, 
+            {
+                "name": "Simon",
+                "status": "family (son)"
+            }       
+   
+            ],
+        "desc": "Sweet and chic.",
+        "age": "33",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 24
+    },
+    {
+        "name": "Elle",
+        "surname": "O'Hara",
+        "relationships": [         
+            {
+                "name": "Audrey",
+                "status": "romantic interest"
+            },
+            {
+                "name": "Edgar",
+                "status": "acquaintance"
+            }, 
+            {
+                "name": "Alexi",
+                "status": "friend"
+            }       
+   
+            ],
+        "desc": "Loves wine.",
+        "age": "35",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 25
+    },
+    {
+        "name": "Simon",
+        "surname": "Andrews",
+        "relationships": [         
+            {
+                "name": "Audrey",
+                "status": "family (mother)"
+            },
+            {
+                "name": "Edgar",
+                "status": "family (father)"
+            }, 
+            {
+                "name": "Nana",
+                "status": "friend"
+            }       
+   
+            ],
+        "desc": "Sweet boy, absent-minded and a bit nerd.",
+        "age": "1 (1st gen), 25 (2nd gen)",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 26
+    },
+    {
+        "name": "Gou",
+        "surname": "Hasegawa",
+        "relationships": [         
+            {
+                "name": "Kazuhiko",
+                "status": "family (brother)"
+            },
+            {
+                "name": "Marcus",
+                "status": "romantic interest, workmate"
+            }, 
+            {
+                "name": "Lilith",
+                "status": "friend"
+            }, 
+            {
+                "name": "Aki",
+                "status": "friend, brother-in-law"
+            }, 
+            {
+                "name": "Lala",
+                "status": "friend"
+            }, 
+            {
+                "name": "Sam",
+                "status": "friend"
+            }, 
+            {
+                "name": "River",
+                "status": "friend"
+            }, 
+            {
+                "name": "Nana",
+                "status": "family (daughter)"
+            },
+            {
+                "name": "Kazui",
+                "status": "family (son)"
+            }          
+   
+            ],
+        "desc": "Energetic and optimistic. The most special boy.",
+        "age": "22",
+        "pronouns": "he/they",
+        "img": "",
+        "creator": "Aida",
+        "id": 27
+    },
+    {
+        "name": "Marcus",
+        "surname": "Ayad",
+        "relationships": [         
+            {
+                "name": "Lilith",
+                "status": "family (sister)"
+            },
+            {
+                "name": "Gou",
+                "status": "romantic interest, workmate"
+            }, 
+            {
+                "name": "Nana",
+                "status": "family (daughter)"
+            },
+            {
+                "name": "Kazui",
+                "status": "family (son)"
+            },
+            {
+                "name": "Seraphim",
+                "status": "friend"
+            }
+   
+            ],
+        "desc": "He's a bit dead inside.",
+        "age": "26",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 28
+    },
+    {
+        "name": "Nana",
+        "surname": "Hasegawa",
+        "relationships": [
+            {
+                "name": "Gou",
+                "status": "family (father)"
+            },
+            {
+                "name": "Marcus",
+                "status": "family (father)"
+            },
+            {
+                "name": "Kazui",
+                "status": "family (brother)"
+            },         
+            {
+                "name": "Lilith",
+                "status": "family (aunt)"
+            },
+            {
+                "name": "Kazuhiko",
+                "status": "family (uncle)"
+            },
+            {
+                "name": "Aki",
+                "status": "family (uncle)"
+            },
+            {
+                "name": "Abel",
+                "status": "friend"
+            },
+            {
+                "name": "Felicia",
+                "status": "friend"
+            }, 
+            {
+                "name": "Simon",
+                "status": "friend"
+            }
+   
+            ],
+        "desc": "A very clever and unpredictable girl.",
+        "age": "21 (2nd gen)",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 29
+    },
+    {
+        "name": "Kazui",
+        "surname": "Hasegawa",
+        "relationships": [
+            {
+                "name": "Gou",
+                "status": "family (father)"
+            },
+            {
+                "name": "Marcus",
+                "status": "family (father)"
+            },
+            {
+                "name": "Nana",
+                "status": "family (sister)"
+            },         
+            {
+                "name": "Lilith",
+                "status": "family (aunt)"
+            },
+            {
+                "name": "Kazuhiko",
+                "status": "family (uncle)"
+            },
+            {
+                "name": "Aki",
+                "status": "family (uncle)"
+            },
+            {
+                "name": "Jamie",
+                "status": "friend"
+            }
+   
+            ],
+        "desc": "Your typical moody teenager.",
+        "age": "16 (2nd gen)",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 30
+    },
+    {
+        "name": "Yin",
+        "surname": "Wei",
+        "relationships": [
+            {
+                "name": "Mei",
+                "status": "family (sister)"
+            },
+            {
+                "name": "Zahak",
+                "status": "romantic interest"
+            },
+            {
+                "name": "Hydra",
+                "status": "friend"
+            },         
+            {
+                "name": "Teodosio",
+                "status": "acquaintance"
+            },
+            {
+                "name": "Jorge",
+                "status": "acquaintance"
+            },         
+            {
+                "name": "Eir",
+                "status": "acquaintance"
+            }
+   
+            ],
+        "desc": "An alcoholic vampire. He's so tired.",
+        "age": "28",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 31
+    },
+    {
+        "name": "Mei",
+        "surname": "Wei",
+        "relationships": [
+            {
+                "name": "Yin",
+                "status": "family (brother)"
+            },
+            {
+                "name": "Zahak",
+                "status": "rival"
+            },
+            {
+                "name": "Hydra",
+                "status": "friend"
+            },         
+            {
+                "name": "Teodosio",
+                "status": "acquaintance"
+            },
+            {
+                "name": "Jorge",
+                "status": "acquaintance"
+            },         
+            {
+                "name": "Eir",
+                "status": "acquaintance"
+            }
+   
+            ],
+        "desc": "Sweet but feral.",
+        "age": "28",
+        "pronouns": "she/her",
+        "img": "",
+        "creator": "Aida",
+        "id": 32
+    },
+    {
+        "name": "Teodosio",
+        "surname": "Fabbri",
+        "relationships": [
+            {
+                "name": "Jorge",
+                "status": "romantic interest"
+            },
+            {
+                "name": "Yin",
+                "status": "acquaintance"
+            },
+            {
+                "name": "Mei",
+                "status": "acquaintance"
+            },
+            {
+                "name": "Hydra",
+                "status": "friend"
+            },         
+            {
+                "name": "Zahak",
+                "status": "acquaintance"
+            },      
+            {
+                "name": "Eir",
+                "status": "friend"
+            },
+            {
+                "name": "Cecilia",
+                "status": "friend"
+            },    
+            {
+                "name": "Lucio",
+                "status": "friend"
+            },      
+            {
+                "name": "Piye",
+                "status": "acquaintance"
+            },      
+            {
+                "name": "Oliver",
+                "status": "friend"
+            }
+   
+            ],
+        "desc": "Good and innocent, but with a strong heart.",
+        "age": "30",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 33
+    },
+    {
+        "name": "Piye",
+        "surname": "?",
+        "relationships": [
+            {
+                "name": "Lucio",
+                "status": "partner"
+            },
+            {
+                "name": "Cecilia",
+                "status": "friend"
+            },
+            {
+                "name": "Teodosio",
+                "status": "acquaintance"
+            }
+   
+            ],
+        "desc": "Hedonist in love with France, for some reason.",
+        "age": "?",
+        "pronouns": "he/him",
+        "img": "",
+        "creator": "Aida",
+        "id": 34
     }
     
 ]

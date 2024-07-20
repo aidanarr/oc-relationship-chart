@@ -3,6 +3,10 @@
     padding: 0;
  }
 
+ div {
+  cursor: pointer;
+ }
+
  .box {
    display: flex;
    flex-direction: column;
@@ -24,8 +28,35 @@
  .children {
    display: flex;
    justify-content: center;
-   gap: 100px;
+   gap: 10px;
+   opacity: 0;
+
  }
+
+ div.children div:nth-child(even){
+    margin-top: 100px;
+  }
+
+
+ .arrows {
+  opacity: 0;
+ }
+
+ .animation { 
+  animation: fadein 1s forwards;
+ }
+
+ @keyframes fadein {
+    0%, 50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+ }
+
+
 
  .legend {
    position: absolute;
@@ -38,6 +69,7 @@
  }
 
  .main-chara {
+  margin-bottom: 50px;
    &:hover + .hidden {
          display: block;
    }
