@@ -1,17 +1,21 @@
 import { useParams } from "react-router-dom"
 import { useEffect } from "react";
+import { useState } from "react";
 
-const Relationships = ({renderRelationships, renderArrows2, getCharaData}) => {
+const Relationships = ({renderRelationships, renderArrows2, getCharaData, clicked}) => {
 
-
+    const [playAnimation, setPlayAnimation] = useState(false)
 
     const {name} = useParams();
 
     const data = getCharaData(name);
 
     useEffect(() => {
-        console.log(data)
-    }, [])
+      setPlayAnimation(false)
+      setTimeout(() => {
+        setPlayAnimation(true)
+      }, 100)
+    }, [clicked])
 
   return (
     <div className="box">
@@ -20,11 +24,12 @@ const Relationships = ({renderRelationships, renderArrows2, getCharaData}) => {
         <p>Age: {data.age}</p>
         <p>&quot;{data.desc}&quot;</p>
     </div>
-    <div className="children">
+    <div className={`children ${playAnimation ? "animation" : ""}`}>
     {renderRelationships(data)}
     </div>
+    <div className={`arrows ${playAnimation ? "animation" : ""}`}>
     {renderArrows2(data)}
-    
+    </div>
     </div>
   )
 }
