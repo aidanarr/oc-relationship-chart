@@ -48,3 +48,10 @@ PERSONAJES:
 32 Mei
 33 Teodosio
 34 Piye
+
+35 Alistair
+36 Lya
+37 Daphne
+38 wiwin
+39 aki
+40 kazu
