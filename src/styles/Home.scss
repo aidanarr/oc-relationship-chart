@@ -1,0 +1,99 @@
+@import "Variables.scss";
+
+.charalist{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 65vh;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    &__container {
+        width: 700px;
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+        height: 70vh;
+       }
+       
+}
+
+
+.charabox {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+    transform-style: preserve-3d;    
+
+    &:hover {   
+      &::before {
+        content: "";
+        position: absolute;
+        border-radius: 100%;
+        inset: -3px;
+        transform: translate3d(0px, 0px, -1px);
+        background: linear-gradient(45deg, #ff7ec3 30%, #ffc34a, #3cbff7);
+        background-size: 600% 600%;
+        filter: blur(8px);
+        animation: glow 3s infinite;
+      }
+    }
+    
+}
+
+@keyframes glow {
+
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+}
+  
+}
+
+.blank {
+    display: none;
+    width: 500px;
+    height: 70px;
+    background-color: pink;
+    position: absolute;
+
+    &-top {
+        display:block;
+        opacity: 0;
+        animation: 0.3s blank 1s forwards;
+    }
+   }
+
+   @keyframes blank {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+ }
+
+ .scroll-arrow {
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+ }
+
+ .scrolled {
+    background-color: red;
+ }

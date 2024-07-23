@@ -1,0 +1,46 @@
+@import "Variables.scss";
+
+.header {
+    width: 100%;
+    height: 25vh;
+    background-color: $light-grey;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    h1 {
+        font-family: $titles;
+        font-size: 32px;
+        letter-spacing: 4px;
+       }
+
+       &__boxes {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+
+            div {
+                width: 6px;
+                height: 6px;
+                border-radius: 100px;
+            }
+        
+            &--1 {
+                background-color: $pink;
+            }
+
+            &--2 {
+                background-color: $orange;
+            }
+
+            &--3 {
+                background-color: $blue;
+            }
+       }
+}
