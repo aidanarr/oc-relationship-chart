@@ -23,11 +23,22 @@
     }
 
     &__main-chara {
+        opacity: 0;
         margin-bottom: 40px;
+        animation: mainChara 2s forwards;
          &:hover + .hidden {
                display: block;
          }
        }
+  }
+
+  @keyframes mainChara {
+    0%, 90% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1;
+    }
   }
  
   .children {
@@ -49,11 +60,11 @@
   }
   
   .animation { 
-   animation: fadein 1s forwards;
+   animation: 2s fadein 1s forwards;
   }
 
   .animationArrows { 
-    animation: 0.3s fadein 1s forwards;
+    animation: 2.3s fadein 1s forwards;
    }
  
   @keyframes fadein {
@@ -206,4 +217,3 @@
 .legend-box {
     transform: translateY(-15px)
 }
-

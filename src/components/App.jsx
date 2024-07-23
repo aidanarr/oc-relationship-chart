@@ -18,8 +18,20 @@ useEffect(() => {
 }, [])
 
 const [clicked, setClicked] = useState(false)
+const [top, setTop] = useState()
+const [left, setLeft] = useState()
+const [currentTop, setCurrentTop] = useState()
+const [currentLeft, setCurrentLeft] = useState()
 
-const mainChara = data[0].name
+function setCoordinates(paramtop, paramleft) {
+  setTop(paramtop)
+  setLeft(paramleft)
+}
+
+function setCurrentCoordinates(paramtop, paramleft) {
+  setCurrentTop(paramtop)
+  setCurrentLeft(paramleft)
+}
 
 const getCharaData = (name) => {
 
@@ -95,8 +107,8 @@ const renderRelationships = (character) => {
       
         <Header />
         <Routes>
-        <Route path="/" element={<Home data={data} />}/>
-          <Route path="/relationships/:name" element={<Relationships clicked={clicked} getCharaData={getCharaData} renderRelationships={renderRelationships} renderArrows={renderArrows}  />}/>
+        <Route path="/" currentTop={currentTop} currentLeft={currentLeft} element={<Home setCoordinates={setCoordinates} data={data} />}/>
+          <Route path="/relationships/:name" element={<Relationships setCurrentCoordinates={setCurrentCoordinates} top={top} left={left} clicked={clicked} getCharaData={getCharaData} renderRelationships={renderRelationships} renderArrows={renderArrows}  />}/>
           <Route path="/list" element={<List />} />
         </Routes>
         <Footer />

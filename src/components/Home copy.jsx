@@ -3,7 +3,7 @@ import { useState } from "react"
 import PropTypes from "prop-types";
 import "../styles/Home.scss"
 
-const Home = ({data, setCoordinates}) => {
+const Home = ({data, setCoordinates, currentTop, currentLeft}) => {
 
     const [isClicked, setIsClicked] = useState()
     // const [top, setTop] = useState()
@@ -24,7 +24,7 @@ const Home = ({data, setCoordinates}) => {
           const character = data.filter((chara) => chara.id === id)
           setTimeout(() => {
             nav("/relationships/" + character[0].name)}, 
-            1000)
+            4000)
       }
 
     function renderList() {

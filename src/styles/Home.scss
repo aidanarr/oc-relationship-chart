@@ -1,6 +1,7 @@
 @import "Variables.scss";
 
 .charalist{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -12,7 +13,6 @@
 
     &__container {
         width: 700px;
-
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         gap: 20px;
@@ -26,6 +26,7 @@
     width: 50px;
     height: 50px;
     border-radius: 100%;
+    border: 1px solid black;
     position: relative;
     cursor: pointer;
     background-color: white;
@@ -63,13 +64,15 @@
 
 .blank {
     display: none;
-    width: 500px;
-    height: 70px;
-    background-color: pink;
+    width: 700px;
+    height: 550px;
+    top: -5px;
+    background-color: $light-grey;
     position: absolute;
 
     &-top {
-        display:block;
+        z-index: 2;
+        display: block;
         opacity: 0;
         animation: 0.3s blank 1s forwards;
     }
