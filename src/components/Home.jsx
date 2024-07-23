@@ -29,7 +29,12 @@ const Home = ({data, setCoordinates}) => {
 
     function renderList() {
         return data.map((chara, i) => {
-            return <div onClick={handleClick} className={`charabox ${isClicked === chara.id ? "clickedChara" : ""}`} id={chara.id} key={i}><p>{chara.name}</p></div>
+            return <div style={{  
+                backgroundImage: `url(./src/images/${chara.img}.png)`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
+                }} onClick={handleClick} className={`charabox ${isClicked === chara.id ? "clickedChara" : ""}`} id={chara.id} key={i}><p>{chara.name}</p></div>
             })
     }
 

@@ -37,15 +37,15 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
     <div className="tree">
       <style>
       {`
-        .prueba {
+        .animated-chara {
           position: absolute;
           text-align: center;
-          min-width: 50px;
-          min-height: 50px;
-          max-width: 50px;
-          max-height: 50px;
+          min-width: 70px;
+          min-height: 70px;
+          max-width: 70px;
+          max-height: 70px;
           border-radius: 100px;
-          border: 1px solid black;
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.23);
           background-color: white;
           z-index: 1;
           opacity: 1;
@@ -78,8 +78,18 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
         `
       }
       </style>
-      <div className="prueba"></div>
-      <div ref={mainChara} className="tree__chara tree__main-chara" id={data.name}>
+      <div className="animated-chara" style={{  
+      backgroundImage: `url(./src/images/${data.img}.png)`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat'
+      }}></div>
+      <div ref={mainChara} className={`tree__chara tree__main-chara ${playAnimation ? "animationMainChara" : ""}`}  id={data.name} style={{  
+      backgroundImage: `url(./src/images/${data.img}.png)`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat'
+      }}>
         {data.name}
       </div>
       <div className={`charainfo hidden`}>

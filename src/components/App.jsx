@@ -46,7 +46,7 @@ const handleClick = (ev, chara) => {
   setClicked(!clicked)
   setTimeout(() => {
     nav("/relationships/" + chara)}, 
-    100)
+    700)
 }
 
 const renderColors = (status) => {
@@ -89,7 +89,12 @@ const renderRelationships = (character) => {
     return (
     <div key={i}>
       <div onClick={(ev) => handleClick(ev, chara.name)} className="related-charas">
-        <div  id={chara.name} className="tree__chara">
+        <div  id={chara.name} className="tree__chara" style={{  
+        backgroundImage: `url(./src/images/${chara.name}.png)`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
+        }}>
           <p>{chara.name}</p>
         </div>
       </div>
