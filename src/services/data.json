@@ -62,15 +62,15 @@
       },
       {
         "name": "Maeve",
-        "status": "sister"
+        "status": "family (sister)"
       },
       {
         "name": "Kyle",
-        "status": "brother"
+        "status": "family (brother)"
       },
       {
         "name": "Iain",
-        "status": "brother"
+        "status": "family (brother)"
       }
     ],
     "desc": "A cutie pie.",
@@ -83,7 +83,7 @@
 
   {
     "name": "Diego",
-    "surname": "Díaz Morales",
+    "surname": "\"Seth\" Díaz Morales",
     "relationships": [
       {
         "name": "Alistair",
@@ -219,6 +219,10 @@
       },
       {
         "name": "Akari",
+        "status": "friend"
+      },
+      {
+        "name": "Josh",
         "status": "friend"
       },
       {
@@ -478,19 +482,19 @@
       },
       {
         "name": "Avigayil",
-        "status": "family family (cousin)"
+        "status": "family (cousin)"
       },
       {
         "name": "Seraphim",
-        "status": "family family (cousin)"
+        "status": "family (cousin)"
       },
       {
         "name": "Mila",
-        "status": "family family (cousin)"
+        "status": "family (cousin)"
       },
       {
         "name": "Aria",
-        "status": "family family (cousin)"
+        "status": "family (cousin)"
       },
       {
         "name": "Oliver",
@@ -538,11 +542,11 @@
       },
       {
         "name": "Alain",
-        "status": "family family (cousin)"
+        "status": "family (cousin)"
       },
       {
         "name": "Cornelio",
-        "status": "family family (cousin)"
+        "status": "family (cousin)"
       },
       {
         "name": "Kim",
@@ -563,7 +567,7 @@
     ],
     "desc": "Oh my god they're crazy.",
     "age": "22",
-    "pronouns": "they/them",
+    "pronouns": "she/they",
     "img": "",
     "creator": "Aida",
     "id": 17
@@ -789,7 +793,7 @@
         "status": "friend"
       }
     ],
-    "desc": "Loves wine.",
+    "desc": "Wine lover, won't stand your bullshit.",
     "age": "35",
     "pronouns": "she/her",
     "img": "",
@@ -1130,7 +1134,7 @@
       }
     ],
     "desc": "Hedonist in love with France, for some reason.",
-    "age": "",
+    "age": "?",
     "pronouns": "he/him",
     "img": "",
     "creator": "Aida",

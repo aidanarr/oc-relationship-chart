@@ -31,16 +31,6 @@
         }
        
 
-        // &:hover {
-        //     font-weight: 600;
-        //     border: 2px solid transparent;
-        //     background: linear-gradient(45deg, $pink 30%, $orange, $blue);
-        //     -webkit-background-clip: text;
-        //     background-clip: text;
-        //     background-size: 600% 600%;
-        //     animation: buttonAnimation 3s infinite;   
-        // }
-
     }
 
     @keyframes buttonAnimation {
@@ -61,6 +51,7 @@
 
     a {
         font-size: 12px;
+        font-weight: 500;
 
         &:hover {
             font-weight: 600;

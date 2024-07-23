@@ -1,15 +1,11 @@
 LEYENDA:
 romantic interest
 partner
-friend (best friend)
-sibling (sister etc)
+friend
+family
 acquaintance
-family (father, mother, son, etc)
-(daughter son)
 rival
-cousin
-?
-(workmate)
+
 
 (2nd gen + 26)
 
