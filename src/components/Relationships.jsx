@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Relationships.scss"
+import { useRef } from "react"
 
 const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked}) => {
 
@@ -9,6 +10,18 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
 
     const {name} = useParams();
 
+    const mainChara = useRef();
+
+    useEffect(() => {
+      try {
+        const rect = mainChara.current.getBoundingClientRect();
+        console.log(rect.top);
+        console.log(rect.left);
+      } catch (e) {
+        return null
+      }
+    }, [name])
+  
     const data = getCharaData(name);
 
     useEffect(() => {
@@ -20,7 +33,7 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
 
   return (
     <div className="tree">
-      <div className="tree__chara tree__main-chara" id={data.name}>
+      <div ref={mainChara} className="tree__chara tree__main-chara" id={data.name}>
         {data.name}
       </div>
       <div className={`charainfo hidden`}>

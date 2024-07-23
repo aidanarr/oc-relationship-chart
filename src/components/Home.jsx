@@ -9,8 +9,6 @@ const Home = ({data}) => {
     const [top, setTop] = useState()
     const [left, setLeft] = useState()
 
-    const [isScrolled, setIsScrolled] = useState(false)
-
     const nav = useNavigate();
 
     function handleClick(ev) {
@@ -43,8 +41,6 @@ const Home = ({data}) => {
             {`
                 .clickedChara {
                 z-index: 1;
-                top: ${top}px;
-                left: ${left}px;
                 animation: 1s clicked 2s ease-in-out forwards;
                 }
                 
@@ -58,8 +54,8 @@ const Home = ({data}) => {
                 
                 100% {
                     position: absolute;
-                    top: 50px;
-                    left: 40px;
+                    top: 225.21250915527344px;
+                    left: 743px;
                 } 
             `}
     </style>
