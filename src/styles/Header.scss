@@ -48,4 +48,14 @@
                 background-color: $blue;
             }
        }
+
+       @media (min-width: 320px) and (max-width: 481px) {
+        text-align: center;
+        h1 {
+            font-size: 27px;
+        }
+        p {
+            font-size: 14px;
+        }
+       }
 }

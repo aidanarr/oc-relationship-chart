@@ -1437,7 +1437,7 @@
       { "name": "Josh", "status": "friend" },
       { "name": "Lala", "status": "acquaintance" }
     ],
-    "desc": "low-energy imsomniac guy",
+    "desc": "low-energy imsomniac guy.",
     "age": "24",
     "pronouns": "he/him",
     "img": "",
@@ -1521,7 +1521,7 @@
         "status": "best friend"
       }
     ],
-    "desc": "little girl befriends weird people",
+    "desc": "little girl befriends weird people.",
     "age": "14",
     "pronouns": "she/her",
     "img": "",
@@ -1549,7 +1549,7 @@
         "status": "acquaintance (music teacher)"
       }
     ],
-    "desc": "Bald Disney princess with pure heart",
+    "desc": "Bald Disney princess with pure heart.",
     "age": "17",
     "pronouns": "she/her",
     "img": "grenda",
@@ -1577,7 +1577,7 @@
         "status": "best friend"
       }
     ],
-    "desc": "wild heart with wild hair",
+    "desc": "wild heart with wild hair.",
     "age": "18",
     "pronouns": "any pronouns",
     "img": "quinn",
