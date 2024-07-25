@@ -20,7 +20,7 @@
         "status": "acquaintance"
       }
     ],
-    "desc": "A young witty man",
+    "desc": "A young witty man.",
     "pronouns": "he/him",
     "age": "20",
     "img": "zan",
@@ -270,7 +270,7 @@
     "desc": "Kim's doppelganger.",
     "age": "23",
     "pronouns": "he/they",
-    "img": "",
+    "img": "mik",
     "creator": "Aida",
     "id": 8
   },
@@ -307,7 +307,7 @@
     "desc": "Your local mean girl.",
     "age": "18",
     "pronouns": "she/her",
-    "img": "",
+    "img": "aria",
     "creator": "Aida",
     "id": 9
   },
@@ -456,7 +456,7 @@
     "desc": "The son of devil himself.",
     "age": "17 (2nd gen)",
     "pronouns": "he/him",
-    "img": "",
+    "img": "jamie",
     "creator": "Aida, Beailish",
     "id": 14
   },
@@ -538,6 +538,10 @@
       },
       {
         "name": "Marcus",
+        "status": "friend"
+      },
+      {
+        "name": "Lilith",
         "status": "friend"
       },
       {
@@ -679,6 +683,10 @@
       {
         "name": "Felicia",
         "status": "family (cousin)"
+      },
+      {
+        "name": "Nana",
+        "status": "friend"
       }
     ],
     "desc": "He's full of energy.",
@@ -710,6 +718,11 @@
       },
       {
         "name": "Maeve",
+        "status": "acquaintance (student)"
+      }
+      ,
+      {
+        "name": "Grenda",
         "status": "acquaintance (student)"
       }
     ],
@@ -857,6 +870,10 @@
         "status": "friend"
       },
       {
+        "name": "Drew",
+        "status": "friend"
+      },
+      {
         "name": "Nana",
         "status": "family (daughter)"
       },
@@ -942,6 +959,10 @@
       },
       {
         "name": "Simon",
+        "status": "friend"
+      },
+      {
+        "name": "Hugo",
         "status": "friend"
       }
     ],
@@ -1357,5 +1378,208 @@
     "img": "kazuhiko",
     "creator": "Mizuki",
     "id": 40
+  },
+  {
+    "name": "Lilith",
+    "surname": "Ayad",
+    "relationships": [
+      {
+        "name": "Marcus",
+        "status": "family (brother)"
+      },
+      {
+        "name": "Gou",
+        "status": "friend, brother-in-law"
+      },
+      {
+        "name": "Seraphim",
+        "status": "friend"
+      },
+      {
+        "name": "Lyatrix",
+        "status": "friend"
+      },
+      {
+        "name": "Daphne",
+        "status": "friend"
+      },
+      {
+        "name": "Lovhelya",
+        "status": "friend"
+      },
+      {
+        "name": "Josh",
+        "status": "friend"
+      }
+    ],
+    "desc": "The weird fun friend.",
+    "age": "23",
+    "pronouns": "she/they",
+    "img": "lilith",
+    "creator": "Mizuki",
+    "id": 41
+  },
+  {
+    "name": "Lewis",
+    "surname": "Müller",
+    "relationships": [
+      { "name": "Sonia", "status": "partner (long distance)" },
+      {
+        "name": "Alistair",
+        "status": "best friend, step-brother"
+      },
+      {
+        "name": "Diego",
+        "status": "friend"
+      },
+      { "name": "Josh", "status": "friend" },
+      { "name": "Lala", "status": "acquaintance" }
+    ],
+    "desc": "low-energy imsomniac guy",
+    "age": "24",
+    "pronouns": "he/him",
+    "img": "",
+    "creator": "Jen",
+    "id": 42
+  },
+  {
+    "name": "Lala",
+    "surname": "Kourin",
+    "relationships": [
+      {
+        "name": "Bruce",
+        "status": "best friend"
+      },
+      {
+        "name": "Shinra",
+        "status": "best friend"
+      },
+      {
+        "name": "Kana",
+        "status": "family (mother)"
+      },
+      {
+        "name": "Nagisa",
+        "status": "family (father)"
+      },
+      {
+        "name": "Kazuhiko",
+        "status": "friend"
+      },
+      {
+        "name": "Gou",
+        "status": "friend"
+      },
+      {
+        "name": "Quinn",
+        "status": "family (step cousin)"
+      },
+      {
+        "name": "Lewis",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Aki",
+        "status": "friend"
+      },
+      {
+        "name": "Iris",
+        "status": "friend"
+      },
+      {
+        "name": "Sam",
+        "status": "friend"
+      },
+      {
+        "name": "River",
+        "status": "friend"
+      }
+    ],
+    "desc": "hard exterior, softest girl inside.",
+    "age": "22",
+    "pronouns": "she/her",
+    "img": "",
+    "creator": "Jen",
+    "id": 43
+  },
+  {
+    "name": "Ahmitia",
+    "surname": "",
+    "relationships": [
+      {
+        "name": "Ebone",
+        "status": "family (grandfather)"
+      },
+      {
+        "name": "Lyatrix",
+        "status": "best friend"
+      },
+      {
+        "name": "Seraphim",
+        "status": "best friend"
+      }
+    ],
+    "desc": "little girl befriends weird people",
+    "age": "14",
+    "pronouns": "she/her",
+    "img": "",
+    "creator": "Jen",
+    "id": 44
+  },
+  {
+    "name": "Grenda",
+    "surname": "Grande",
+    "relationships": [
+      {
+        "name": "Fausto",
+        "status": "friend"
+      },
+      {
+        "name": "Alain",
+        "status": "friend"
+      },
+      {
+        "name": "Quinn",
+        "status": "best friend"
+      },
+      {
+        "name": "Edgar",
+        "status": "acquaintance (music teacher)"
+      }
+    ],
+    "desc": "Bald Disney princess with pure heart",
+    "age": "17",
+    "pronouns": "she/her",
+    "img": "",
+    "creator": "Jen",
+    "id": 45
+  },
+  {
+    "name": "Quinn",
+    "surname": "",
+    "relationships": [
+      {
+        "name": "Whiskey",
+        "status": "friend (monkey companion for life)"
+      },
+      {
+        "name": "Grenda",
+        "status": "best friend"
+      },
+      {
+        "name": "Lala",
+        "status": "family (step cousin)"
+      },
+      {
+        "name": "Avigayil",
+        "status": "best friend"
+      }
+    ],
+    "desc": "wild heart with wild hair",
+    "age": "18",
+    "pronouns": "any pronouns",
+    "img": "",
+    "creator": "Jen",
+    "id": 46
   }
 ]

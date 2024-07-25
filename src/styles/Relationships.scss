@@ -20,12 +20,17 @@
        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.23);
        background-color: white;
        cursor: pointer;
+
+       &:hover {
+        transform: scale(103%);
+      }
     }
 
     &__main-chara {
         opacity: 0;
         margin-bottom: 40px;
         animation: mainChara 2s forwards;
+        cursor: auto;
          &:hover + .hidden {
                display: block;
          }
@@ -60,7 +65,7 @@
   }
   
   .animation { 
-   animation: 2s fadein 1s forwards;
+   animation: 1.2s fadein 1s forwards;
   }
 
   .animationArrows { 
@@ -78,21 +83,20 @@
   }
  
   .status {
-    text-align: center;
+    text-align: left;
     position: absolute;
-    top: 43.5%;
-    bottom: 50%;
+    min-width: 80px;
+    top: 42.5%;
+    border: 1px solid gray;
     border-radius: 50px;
-    
+    border-radius: 15px;
+    background-color: $light-grey;
+    padding: 5px 10px 5px 10px;
+
     p {
-        display: inline-block;
-        border: 1px solid black;
-        border-radius: 15px;
-        background-color: white;
-        padding: 5px 10px 5px 10px;
-        font-size: 12px;
-        font-weight: 600;
-    }
+      font-size: 12px;
+      font-weight: 500;
+  }
   }
 
   .charainfo {
@@ -102,7 +106,7 @@
     right: 55%;
 
         div {
-            border: 1px solid black;
+            border: 1px solid gray;
             border-radius: 10px;
             padding: 6px 10px 6px 10px;
             background-color: white;

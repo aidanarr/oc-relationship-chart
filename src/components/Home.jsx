@@ -6,8 +6,6 @@ import "../styles/Home.scss"
 const Home = ({data, setCoordinates}) => {
 
     const [isClicked, setIsClicked] = useState()
-    // const [top, setTop] = useState()
-    // const [left, setLeft] = useState()
 
     const nav = useNavigate();
 
@@ -38,31 +36,8 @@ const Home = ({data, setCoordinates}) => {
             })
     }
 
-
   return (
     <>
-        {/* <style>
-            {`
-                .clickedChara {
-                z-index: 1;
-                animation: 1s clicked 2s ease-in-out forwards;
-                }
-                
-                @keyframes clicked {
-                0% {
-                    position: absolute;
-                    top: ${top}px;
-                    left: ${left}px;
-                
-                }
-                
-                100% {
-                    position: absolute;
-                    top: 225.21250915527344px;
-                    left: 743px;
-                } 
-            `}
-    </style> */}
         <div className="charalist">
             <div className="charalist__container">
                 <div className={`blank ${isClicked ? "blank-top" : false}`}>

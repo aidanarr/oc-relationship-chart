@@ -51,3 +51,9 @@ PERSONAJES:
 38 wiwin
 39 aki
 40 kazu
+41 lily
+
+42 Lewis
+43 Lala
+44 mimi
+45 quinn

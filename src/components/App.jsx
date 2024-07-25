@@ -2,13 +2,14 @@ import "../styles/App.scss"
 import "../styles/Relationships.scss"
 import data from "../services/data.json"
 import Xarrow from "react-xarrows";
-import Relationships from "./Relationships";
 import { useEffect, useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
+import Relationships from "./Relationships";
 import List from "./List";
 import Home from "./Home";
 import Header from "./Header";
 import Footer from "./Footer";
+import NotFound from "./NotFound";
 
 
 function App() {
@@ -99,6 +100,7 @@ const renderRelationships = (character) => {
         </div>
       </div>
       <div className="status hidden">
+        <p>{chara.name}</p>
         <p style={{color: `${renderColors(chara.status)}` }}>{chara.status}</p>
       </div>
     </div>
@@ -115,6 +117,7 @@ const renderRelationships = (character) => {
         <Route path="/" currentTop={currentTop} currentLeft={currentLeft} element={<Home setCoordinates={setCoordinates} data={data} />}/>
           <Route path="/relationships/:name" element={<Relationships setCurrentCoordinates={setCurrentCoordinates} top={top} left={left} clicked={clicked} getCharaData={getCharaData} renderRelationships={renderRelationships} renderArrows={renderArrows}  />}/>
           <Route path="/list" element={<List />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
 
