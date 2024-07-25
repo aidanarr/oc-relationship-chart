@@ -172,7 +172,7 @@
         "status": "acquaintance"
       }
     ],
-    "desc": "Guapa, lista y espiritista.",
+    "desc": "Guapa, lista y espiritista (pretty, clever and spiritualist).",
     "age": "20",
     "pronouns": "she/her",
     "img": "akari",
@@ -226,6 +226,10 @@
         "status": "friend"
       },
       {
+        "name": "Toru",
+        "status": "acquaintance"
+      },
+      {
         "name": "Alain",
         "status": "family (cousin), workmate"
       },
@@ -237,10 +241,7 @@
         "name": "Avigayil",
         "status": "family (cousin)"
       },
-      {
-        "name": "Seraphim",
-        "status": "family (cousin)"
-      },
+
       {
         "name": "Mila",
         "status": "family (cousin)"
@@ -295,10 +296,7 @@
         "name": "Avigayil",
         "status": "family (cousin)"
       },
-      {
-        "name": "Seraphim",
-        "status": "family (cousin)"
-      },
+
       {
         "name": "Mila",
         "status": "family (cousin)"
@@ -340,10 +338,7 @@
         "name": "Cornelio",
         "status": "family (annoying cousin)"
       },
-      {
-        "name": "Seraphim",
-        "status": "family (cousin)"
-      },
+
       {
         "name": "Mila",
         "status": "family (cousin)"
@@ -484,10 +479,7 @@
         "name": "Avigayil",
         "status": "family (cousin)"
       },
-      {
-        "name": "Seraphim",
-        "status": "family (cousin)"
-      },
+
       {
         "name": "Mila",
         "status": "family (cousin)"
@@ -543,30 +535,6 @@
       {
         "name": "Lilith",
         "status": "friend"
-      },
-      {
-        "name": "Alain",
-        "status": "family (cousin)"
-      },
-      {
-        "name": "Cornelio",
-        "status": "family (cousin)"
-      },
-      {
-        "name": "Kim",
-        "status": "family (cousin)"
-      },
-      {
-        "name": "Avigayil",
-        "status": "family (cousin)"
-      },
-      {
-        "name": "Mila",
-        "status": "family (cousin)"
-      },
-      {
-        "name": "Aria",
-        "status": "family (cousin)"
       }
     ],
     "desc": "Oh my god they're crazy.",
@@ -607,11 +575,8 @@
       {
         "name": "Avigayil",
         "status": "family (cousin)"
-      },
-      {
-        "name": "Seraphim",
-        "status": "family (cousin)"
       }
+
     ],
     "desc": "Don't mess with her.",
     "age": "27",
@@ -639,6 +604,10 @@
       {
         "name": "Kim",
         "status": "acquaintance, workmate"
+      },
+      {
+        "name": "Grenda",
+        "status": "friend"
       }
     ],
     "desc": "Your trusty doctor Fausto.",
@@ -880,6 +849,14 @@
       {
         "name": "Kazui",
         "status": "family (son)"
+      },
+      {
+        "name": "Ame",
+        "status": "family (mother)"
+      },
+      {
+        "name": "Kazuma",
+        "status": "family (father)"
       }
     ],
     "desc": "Energetic and optimistic. The most special boy.",
@@ -912,6 +889,10 @@
       {
         "name": "Seraphim",
         "status": "friend"
+      },
+      {
+        "name": "Livia",
+        "status": "family (mother)"
       }
     ],
     "desc": "He's a bit dead inside.",
@@ -1156,7 +1137,7 @@
     ],
     "desc": "Hedonist in love with France, for some reason.",
     "age": "?",
-    "pronouns": "he/him",
+    "pronouns": "he/they",
     "img": "piye",
     "creator": "Aida",
     "id": 34
@@ -1261,7 +1242,7 @@
     "desc": "Looks like a cinammon roll, could kill you.",
     "age": "29",
     "pronouns": "she/her",
-    "img": "",
+    "img": "daphne",
     "creator": "Mizuki",
     "id": 37
   },
@@ -1284,16 +1265,13 @@
       {
         "name": "Cornelio",
         "status": "family (fav cousin)"
-      },
-      {
-        "name": "Seraphim",
-        "status": "family (cousin)"
       }
+
     ],
     "desc": "Soft, but not fragile.",
     "age": "33",
     "pronouns": "he/him",
-    "img": "",
+    "img": "alain",
     "creator": "Mizuki",
     "id": 38
   },
@@ -1339,7 +1317,7 @@
     "desc": "Under all that black ink, he's just a ray of sunshine.",
     "age": "29",
     "pronouns": "he/him",
-    "img": "",
+    "img": "aki",
     "creator": "Mizuki",
     "id": 39
   },
@@ -1370,6 +1348,22 @@
       {
         "name": "Iris",
         "status": "friend"
+      },
+      {
+        "name": "Nana",
+        "status": "family (niece)"
+      },
+      {
+        "name": "Kazui",
+        "status": "family (nephew)"
+      },
+      {
+        "name": "Ame",
+        "status": "family (mother)"
+      },
+      {
+        "name": "Kazuma",
+        "status": "family (father)"
       }
     ],
     "desc": "Perpetually tired.",
@@ -1410,6 +1404,14 @@
       {
         "name": "Josh",
         "status": "friend"
+      },
+      {
+        "name": "Nana",
+        "status": "family (niece)"
+      },
+      {
+        "name": "Kazui",
+        "status": "family (nephew)"
       }
     ],
     "desc": "The weird fun friend.",
@@ -1498,7 +1500,7 @@
     "desc": "hard exterior, softest girl inside.",
     "age": "22",
     "pronouns": "she/her",
-    "img": "",
+    "img": "lala",
     "creator": "Jen",
     "id": 43
   },
@@ -1550,7 +1552,7 @@
     "desc": "Bald Disney princess with pure heart",
     "age": "17",
     "pronouns": "she/her",
-    "img": "",
+    "img": "grenda",
     "creator": "Jen",
     "id": 45
   },
@@ -1578,7 +1580,7 @@
     "desc": "wild heart with wild hair",
     "age": "18",
     "pronouns": "any pronouns",
-    "img": "",
+    "img": "quinn",
     "creator": "Jen",
     "id": 46
   }

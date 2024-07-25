@@ -1,0 +1,131 @@
+@import "Variables.scss";
+
+.credits-page {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+        width: 700px;
+        margin-bottom: 30px;
+    }
+
+}
+
+.credits {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    gap: 30px;
+
+    &__author {
+        
+        p {
+            font-weight: 500;
+        }
+
+        &--charas {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        i {
+            font-size: 12px;
+            margin-left: 5px;
+            color: grey;
+
+            &:hover {
+                font-weight: 600;
+                background: linear-gradient(45deg, $pink 30%, $orange, $blue);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 600% 600%;
+                animation: linkAnimation 3s infinite;   
+            }
+        }
+    }
+}
+
+@keyframes linkAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.back {
+    z-index: 4;
+    position: fixed;
+    width: fit-content;
+    text-align: center;
+    top: 93.5%;
+    left: 74%;
+
+    &__link {
+        font-size: 10px;
+        font-weight: 500;
+
+        &:hover {
+            font-weight: 600;
+            background: linear-gradient(45deg, $pink 30%, $orange, $blue);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 600% 600%;
+            animation: linkAnimation 3s infinite;   
+        }
+    }  
+  }
+
+  .credits-chara {
+    position: relative;
+  }
+
+  .charasheet {
+    min-width: 300px;
+    z-index: 6;
+    position: absolute;
+    bottom: 130%;
+
+        div {
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 6px 10px 6px 10px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            
+            p {
+                font-size: 12px;
+            }
+        }
+
+        .charaname {
+            font-weight: 600;
+        }
+  }
+
+  div.charainfo div :last-child{
+    font-style:italic;
+  }
+
+  .charabox {
+    &:hover + .hidden {
+        display: block;
+  }
+  }

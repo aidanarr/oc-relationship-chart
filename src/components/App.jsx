@@ -10,6 +10,7 @@ import Home from "./Home";
 import Header from "./Header";
 import Footer from "./Footer";
 import NotFound from "./NotFound";
+import Credits from "./Credits";
 
 
 function App() {
@@ -108,16 +109,56 @@ const renderRelationships = (character) => {
   })
 }
 
+function renderCharacters(creator) {
+
+  const characters = data.filter((chara) => chara.creator.includes(creator));
+
+  return characters.map((chara, i) => {
+      return <div key={i} className="credits-chara">
+          <div style={{  
+          backgroundImage: `url(./src/images/${chara.img}.png)`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
+          }} onClick={(ev) => handleClick(ev, chara.name)} className={`charabox`} id={chara.id} ><p>{chara.name}</p></div>
+
+          <div className={`charasheet hidden`}>
+            <div>
+              <p className="charaname">{chara.name} {chara.surname}</p>
+              <p>{chara.pronouns}</p>
+              <p>Age: {chara.age}</p>
+              <p>Owner: {chara.creator}</p>
+              <p>&quot;{chara.desc}&quot;</p>
+            </div>
+          </div>
+         </div>
+          
+      })
+}
+
 
   return (
     <div className="page">
       
         <Header />
         <Routes>
-        <Route path="/" currentTop={currentTop} currentLeft={currentLeft} element={<Home setCoordinates={setCoordinates} data={data} />}/>
-          <Route path="/relationships/:name" element={<Relationships setCurrentCoordinates={setCurrentCoordinates} top={top} left={left} clicked={clicked} getCharaData={getCharaData} renderRelationships={renderRelationships} renderArrows={renderArrows}  />}/>
+          <Route path="/" 
+            element={<Home 
+            currentTop={currentTop} 
+            currentLeft={currentLeft} 
+            setCoordinates={setCoordinates} 
+            data={data} />}/>
+          <Route path="/relationships/:name" 
+            element={<Relationships 
+            setCurrentCoordinates={setCurrentCoordinates} top={top} 
+            left={left} 
+            clicked={clicked} 
+            getCharaData={getCharaData} renderRelationships={renderRelationships} renderArrows={renderArrows}  />}/>
           <Route path="/list" element={<List />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/credits"  
+            element={<Credits
+            renderCharacters={renderCharacters} />} />
         </Routes>
         <Footer />
 
