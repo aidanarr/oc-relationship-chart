@@ -11,6 +11,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import NotFound from "./NotFound";
 import Credits from "./Credits";
+import ScrollToTop from "./ScrollToTop";
 
 
 function App() {
@@ -139,9 +140,10 @@ function renderCharacters(creator) {
 
   return (
     <div className="page">
-      
+      <ScrollToTop />
         <Header />
         <Routes>
+          
           <Route path="/" 
             element={<Home 
             currentTop={currentTop} 

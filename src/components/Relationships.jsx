@@ -81,6 +81,15 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
             `
           }
           </style>
+           <div className={`charainfo hidden`}>
+              <div>
+                <p className="charaname">{data.name} {data.surname}</p>
+                <p>{data.pronouns}</p>
+                <p>Age: {data.age}</p>
+                <p>Owner: {data.creator}</p>
+                <p>&quot;{data.desc}&quot;</p>
+              </div>
+          </div>
           <div className="animated-chara" style={{  
           backgroundImage: `url(./src/images/${data.img}.png)`,
           backgroundPosition: 'center',
@@ -95,15 +104,7 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
           }}>
             {data.name}
           </div>
-          <div className={`charainfo hidden`}>
-              <div>
-                <p className="charaname">{data.name} {data.surname}</p>
-                <p>{data.pronouns}</p>
-                <p>Age: {data.age}</p>
-                <p>Owner: {data.creator}</p>
-                <p>&quot;{data.desc}&quot;</p>
-              </div>
-          </div>
+         
           <div className={`children ${playAnimation ? "animation" : ""}`}>
             {renderRelationships(data)}
           </div>
