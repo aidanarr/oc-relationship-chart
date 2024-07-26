@@ -5,7 +5,7 @@ import "../styles/Relationships.scss"
 import { useRef } from "react"
 import NotFound from "./NotFound";
 
-const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked, top, left}) => {
+const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked, top, left, renderColors}) => {
 
     const [playAnimation, setPlayAnimation] = useState(false)
     const [currentTop, setCurrentTop] = useState()
@@ -34,12 +34,26 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
       }, 100)
     }, [clicked])
 
+    function renderBorderColor(status) {
+      if (status.includes("romantic interest")) {
+        return "#D45F9E"
+      } else if (status.includes("partner")) {
+        return "#D45F9E"
+      } else if (status.includes("friend")) {
+        return "#1c89b8"
+      } else if (status.includes("family")) {
+        return "#ff993f"
+      } else if (status.includes("rival")) {
+        return "#8d2133"
+      } else return "gray"
+    }
+
   return (
     <>
       { data ? 
           <div className="tree">
           <style>
-          {`
+          {`          
             .animated-chara {
               position: absolute;
               text-align: center;
@@ -80,16 +94,7 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
             
             `
           }
-          </style>
-           <div className={`charainfo hidden`}>
-              <div>
-                <p className="charaname">{data.name} {data.surname}</p>
-                <p>{data.pronouns}</p>
-                <p>Age: {data.age}</p>
-                <p>Owner: {data.creator}</p>
-                <p>&quot;{data.desc}&quot;</p>
-              </div>
-          </div>
+          </style> 
           <div className="animated-chara" style={{  
           backgroundImage: `url(./src/images/${data.img}.png)`,
           backgroundPosition: 'center',
@@ -104,7 +109,15 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
           }}>
             {data.name}
           </div>
-         
+          <div className={`charainfo hidden`}>
+              <div>
+                <p className="charaname">{data.name} {data.surname}</p>
+                <p>{data.pronouns}</p>
+                <p>Age: {data.age}</p>
+                <p>Owner: {data.creator}</p>
+                <p>&quot;{data.desc}&quot;</p>
+              </div>
+          </div>
           <div className={`children ${playAnimation ? "animation" : ""}`}>
             {renderRelationships(data)}
           </div>

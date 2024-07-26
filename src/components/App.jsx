@@ -84,6 +84,20 @@ const renderArrows = (character) => {
   })
 }
 
+function renderBorderColor(status) {
+  if (status.includes("romantic interest")) {
+    return "romance"
+  } else if (status.includes("partner")) {
+    return "romance"
+  } else if (status.includes("friend")) {
+    return "friend"
+  } else if (status.includes("family")) {
+    return "family"
+  } else if (status.includes("rival")) {
+    return "rival"
+  } else return "misc"
+}
+
 const renderRelationships = (character) => {
 
   const relationships = character.relationships;
@@ -92,7 +106,7 @@ const renderRelationships = (character) => {
     return (
     <div key={i}>
       <div onClick={(ev) => handleClick(ev, chara.name)} className="related-charas">
-        <div  id={chara.name} className="tree__chara" style={{  
+        <div  id={chara.name} className={`tree__chara border-${renderBorderColor(chara.status)}`} style={{  
         backgroundImage: `url(./src/images/${chara.name}.png)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
@@ -103,7 +117,7 @@ const renderRelationships = (character) => {
       </div>
       <div className="status hidden">
         <p>{chara.name}</p>
-        <p style={{color: `${renderColors(chara.status)}` }}>{chara.status}</p>
+        <p style={{color: `${renderColors(chara.status)}`}}>{chara.status}</p>
       </div>
     </div>
     )
@@ -143,7 +157,6 @@ function renderCharacters(creator) {
       <ScrollToTop />
         <Header />
         <Routes>
-          
           <Route path="/" 
             element={<Home 
             currentTop={currentTop} 
