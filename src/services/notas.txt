@@ -1,4 +1,4 @@
-LEYENDA:
+
 romantic interest
 partner
 friend
@@ -7,9 +7,6 @@ acquaintance
 rival
 
 
-(2nd gen + 26)
-
-PERSONAJES:
 1 Zan
 2 Josh
 3 Seth

@@ -2,10 +2,9 @@ import "../styles/App.scss"
 import "../styles/Relationships.scss"
 import data from "../services/data.json"
 import Xarrow from "react-xarrows";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Relationships from "./Relationships";
-import List from "./List";
 import Home from "./Home";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -16,33 +15,32 @@ import ScrollToTop from "./ScrollToTop";
 
 function App() {
 
-useEffect(() => {
-  console.log(data[0].relationships)
-}, [])
-
 const [clicked, setClicked] = useState(false)
 const [top, setTop] = useState()
 const [left, setLeft] = useState()
 const [currentTop, setCurrentTop] = useState()
 const [currentLeft, setCurrentLeft] = useState()
 
+// home/credits coordinates
 function setCoordinates(paramtop, paramleft) {
   setTop(paramtop)
   setLeft(paramleft)
 }
 
+// relationships coordinates
 function setCurrentCoordinates(paramtop, paramleft) {
   setCurrentTop(paramtop)
   setCurrentLeft(paramleft)
 }
 
+// get data using chara name
 const getCharaData = (name) => {
 
   const clickedChara = data.find((chara) => chara.name === name);
-
   return clickedChara
 }
 
+// navigate to relationships detail
 const nav = useNavigate();
 
 const handleClick = (ev, chara) => {
@@ -51,6 +49,7 @@ const handleClick = (ev, chara) => {
     nav("/relationships/" + chara)}, 
     700)
 }
+
 
 const renderColors = (status) => {
   if (status.includes("romantic interest")) {
@@ -169,7 +168,6 @@ function renderCharacters(creator) {
             left={left} 
             clicked={clicked} 
             getCharaData={getCharaData} renderRelationships={renderRelationships} renderArrows={renderArrows}  />}/>
-          <Route path="/list" element={<List />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/credits"  
             element={<Credits

@@ -1,11 +1,9 @@
-import { useParams } from "react-router-dom"
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom"
+import { useEffect, useState, useRef } from "react";
 import "../styles/Relationships.scss"
-import { useRef } from "react"
 import NotFound from "./NotFound";
 
-const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked, top, left, renderColors}) => {
+const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked, top, left }) => {
 
     const [playAnimation, setPlayAnimation] = useState(false)
     const [currentTop, setCurrentTop] = useState()
@@ -17,6 +15,7 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
 
     useEffect(() => {
       try {
+        //set static coordinates
         const rect = mainChara.current.getBoundingClientRect();
         setCurrentLeft(rect.left);
         setCurrentTop(rect.top);
@@ -28,25 +27,12 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
     const data = getCharaData(name);
 
     useEffect(() => {
+      //restart animations with each click
       setPlayAnimation(false)
       setTimeout(() => {
         setPlayAnimation(true)
       }, 100)
     }, [clicked])
-
-    function renderBorderColor(status) {
-      if (status.includes("romantic interest")) {
-        return "#D45F9E"
-      } else if (status.includes("partner")) {
-        return "#D45F9E"
-      } else if (status.includes("friend")) {
-        return "#1c89b8"
-      } else if (status.includes("family")) {
-        return "#ff993f"
-      } else if (status.includes("rival")) {
-        return "#8d2133"
-      } else return "gray"
-    }
 
   return (
     <>
