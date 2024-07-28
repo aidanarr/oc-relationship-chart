@@ -18,9 +18,9 @@ const Credits = ({renderCharacters}) => {
                 {renderCharacters("Aida")}
             </div>            
             <div className="credits__author">
-                <p>• Created by Bea</p>
+                <p>• Created by Beailish</p>
                 <div className="credits__author--charas">
-                {renderCharacters("Bea")}
+                {renderCharacters("Beailish")}
                 </div>
             </div>
             <div className="credits__author">

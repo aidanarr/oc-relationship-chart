@@ -56,4 +56,9 @@ PERSONAJES:
 42 Lewis
 43 Lala
 44 mimi
-45 quinn
+45 grenda
+46 quinn
+
+47 amelie
+48 hans
+49 claire

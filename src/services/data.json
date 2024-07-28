@@ -135,7 +135,7 @@
         "status": "friend"
       }
     ],
-    "desc": "Strong and charismatic woman.",
+    "desc": "Strong and charismatic. She's the life of the party.",
     "age": "28",
     "pronouns": "she/her",
     "img": "alexi",
@@ -199,6 +199,10 @@
       {
         "name": "Lewis",
         "status": "rival"
+      },
+      {
+        "name": "Ronald",
+        "status": "friend"
       }
     ],
     "desc": "The king of nerds.",
@@ -251,7 +255,7 @@
         "status": "?"
       }
     ],
-    "desc": "He's a surgeon and also an ecologist.",
+    "desc": "He's a surgeon but also a hippie.",
     "age": "23",
     "pronouns": "he/they",
     "img": "kim",
@@ -390,18 +394,22 @@
         "status": "partner"
       },
       {
+        "name": "Amelie",
+        "status": "friend"
+      },
+      {
         "name": "Akari",
-        "status": "rival"
+        "status": "acquaintance"
       },
       {
         "name": "Jamie",
         "status": "family (son)"
       }
     ],
-    "desc": "Cute and mischievous.",
+    "desc": "She's sweet but a psycho.",
     "age": "20",
     "pronouns": "she/her",
-    "img": "",
+    "img": "haine",
     "creator": "Beailish",
     "id": 12
   },
@@ -421,6 +429,18 @@
       {
         "name": "Jamie",
         "status": "family (son)"
+      },
+      {
+        "name": "Hans",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Amelie",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Toru",
+        "status": "friend"
       }
     ],
     "desc": "Former punk, a bit grumpy.",
@@ -576,9 +596,8 @@
         "name": "Avigayil",
         "status": "family (cousin)"
       }
-
     ],
-    "desc": "Don't mess with her.",
+    "desc": "She's got her head in the clouds.",
     "age": "27",
     "pronouns": "she/her",
     "img": "mila",
@@ -634,7 +653,7 @@
         "status": "family (cousin)"
       }
     ],
-    "desc": "A soft and weird girl.",
+    "desc": "Soft, flower-lover weird girl.",
     "age": "2 (1st gen), 25 (2nd gen)",
     "pronouns": "she/her",
     "img": "felicia",
@@ -658,7 +677,7 @@
         "status": "friend"
       }
     ],
-    "desc": "He's full of energy.",
+    "desc": "A bit dumb, very nice to be around.",
     "age": "2 (1st gen), 25 (2nd gen)",
     "pronouns": "he/him",
     "img": "hugo",
@@ -688,8 +707,7 @@
       {
         "name": "Maeve",
         "status": "acquaintance (student)"
-      }
-      ,
+      },
       {
         "name": "Grenda",
         "status": "acquaintance (student)"
@@ -727,7 +745,7 @@
         "status": "friend"
       }
     ],
-    "desc": "A ray of sunshine with a beautiful voice.",
+    "desc": "A ray of sunshine with a prodigious voice.",
     "age": "29",
     "pronouns": "he/him",
     "img": "oliver",
@@ -751,7 +769,7 @@
         "status": "family (son)"
       }
     ],
-    "desc": "Sweet and chic.",
+    "desc": "Sweet and chic. She's an artist.",
     "age": "33",
     "pronouns": "she/her",
     "img": "audrey",
@@ -775,7 +793,7 @@
         "status": "friend"
       }
     ],
-    "desc": "Wine lover, won't stand your bullshit.",
+    "desc": "Wine lover. Won't stand your bullshit.",
     "age": "35",
     "pronouns": "she/her",
     "img": "elle",
@@ -947,7 +965,7 @@
         "status": "friend"
       }
     ],
-    "desc": "A very clever and unpredictable girl.",
+    "desc": "Clever, unpredictable and chaotic.",
     "age": "21 (2nd gen)",
     "pronouns": "she/her",
     "img": "nana",
@@ -987,7 +1005,7 @@
         "status": "friend"
       }
     ],
-    "desc": "Your typical moody teenager.",
+    "desc": "Your typical angsty teenager.",
     "age": "16 (2nd gen)",
     "pronouns": "he/him",
     "img": "kazui",
@@ -1023,7 +1041,7 @@
         "status": "acquaintance"
       }
     ],
-    "desc": "An alcoholic vampire. He's too tired.",
+    "desc": "An alcoholic vampire. Very soft inside.",
     "age": "28",
     "pronouns": "he/him",
     "img": "yin",
@@ -1059,7 +1077,7 @@
         "status": "acquaintance"
       }
     ],
-    "desc": "Sweet but feral.",
+    "desc": "Sweet and feral.",
     "age": "28",
     "pronouns": "she/her",
     "img": "mei",
@@ -1266,7 +1284,6 @@
         "name": "Cornelio",
         "status": "family (fav cousin)"
       }
-
     ],
     "desc": "Soft, but not fragile.",
     "age": "33",
@@ -1437,7 +1454,7 @@
       { "name": "Josh", "status": "friend" },
       { "name": "Lala", "status": "acquaintance" }
     ],
-    "desc": "low-energy imsomniac guy.",
+    "desc": "Low-energy imsomniac guy.",
     "age": "24",
     "pronouns": "he/him",
     "img": "",
@@ -1497,7 +1514,7 @@
         "status": "friend"
       }
     ],
-    "desc": "hard exterior, softest girl inside.",
+    "desc": "Hard exterior, softest girl inside.",
     "age": "22",
     "pronouns": "she/her",
     "img": "lala",
@@ -1521,7 +1538,7 @@
         "status": "best friend"
       }
     ],
-    "desc": "little girl befriends weird people.",
+    "desc": "Little girl befriends weird people.",
     "age": "14",
     "pronouns": "she/her",
     "img": "",
@@ -1577,11 +1594,108 @@
         "status": "best friend"
       }
     ],
-    "desc": "wild heart with wild hair.",
+    "desc": "Wild heart with wild hair.",
     "age": "18",
     "pronouns": "any pronouns",
     "img": "quinn",
     "creator": "Jen",
     "id": 46
+  },
+  {
+    "name": "Amelie",
+    "surname": "van Hessen",
+    "relationships": [
+      {
+        "name": "Hans",
+        "status": "romantic interest"
+      },
+      {
+        "name": "Haine",
+        "status": "friend"
+      },
+      {
+        "name": "Claire",
+        "status": "friend"
+      },
+      {
+        "name": "Zan",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Ronald",
+        "status": "acquaintance"
+      }
+    ],
+    "desc": "A very calm girl who loves books and playing the violin.",
+    "pronouns": "she/her",
+    "age": "22",
+    "img": "amelie",
+    "creator": "Beailish",
+    "id": 47
+  },
+  {
+    "name": "Hans",
+    "surname": "Sörensen",
+    "relationships": [
+      {
+        "name": "Amelie",
+        "status": "romantic interest"
+      },
+
+      {
+        "name": "Zan",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Ronald",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Haine",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Claire",
+        "status": "acquaintance"
+      }
+    ],
+    "desc": "A shy nerd.",
+    "pronouns": "he/him",
+    "age": "24",
+    "img": "hans",
+    "creator": "Beailish",
+    "id": 48
+  },
+  {
+    "name": "Claire",
+    "surname": "Eldritch",
+    "relationships": [
+      {
+        "name": "Amelie",
+        "status": "friend"
+      },
+      {
+        "name": "Ronald",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Haine",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Zan",
+        "status": "acquaintance"
+      },
+      {
+        "name": "Hans",
+        "status": "acquaintance"
+      }
+    ],
+    "desc": "Mom friend. Loves everything related to magic, plants and the moon.",
+    "pronouns": "she/her",
+    "age": "29",
+    "img": "claire",
+    "creator": "Beailish",
+    "id": 49
   }
 ]

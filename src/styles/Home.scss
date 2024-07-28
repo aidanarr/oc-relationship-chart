@@ -1,6 +1,7 @@
 @import "Variables.scss";
 
 .charalist{
+    
     position: relative;
     display: flex;
     justify-content: center;
@@ -11,14 +12,13 @@
     overflow-x: hidden;
 
     &__container {
-        
         width: 700px;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         justify-items: center;
         gap: 20px;
         height: 70vh;
-        margin-bottom: 15%;
+        margin-bottom: 20%;
        }
 
        @media (height > 730px) {
@@ -112,7 +112,7 @@
     display: none;
     z-index: 1;
     width: 700px;
-    height: 100vh;
+    height: 120vh;
     top: -5px;
     transform: translateX(-5px);
     background-color: $light-grey;
