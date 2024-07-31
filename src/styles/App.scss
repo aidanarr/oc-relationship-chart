@@ -8,9 +8,12 @@
     font-size: 14px;
     letter-spacing: 2px;
     font-weight: 350;
+    
  }
 
-
+ body {
+  overflow: auto;
+ }
 
  a {
   color: inherit;

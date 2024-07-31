@@ -711,6 +711,10 @@
       {
         "name": "Grenda",
         "status": "acquaintance (student)"
+      },
+      {
+        "name": "Amelie",
+        "status": "acquaintance (student)"
       }
     ],
     "desc": "Shy and clumsy. Loves wearing suits.",
@@ -1442,7 +1446,10 @@
     "name": "Lewis",
     "surname": "Müller",
     "relationships": [
-      { "name": "Sonia", "status": "partner (long distance)" },
+      { 
+        "name": "Sonia", 
+        "status": "partner (long distance)" 
+      },
       {
         "name": "Alistair",
         "status": "best friend, step-brother"
@@ -1451,13 +1458,19 @@
         "name": "Diego",
         "status": "friend"
       },
-      { "name": "Josh", "status": "friend" },
-      { "name": "Lala", "status": "acquaintance" }
+      { 
+        "name": "Josh", 
+        "status": "friend" 
+      },
+      { 
+        "name": "Lala", 
+        "status": "acquaintance" 
+      }
     ],
     "desc": "Low-energy imsomniac guy.",
     "age": "24",
     "pronouns": "he/him",
-    "img": "",
+    "img": "lewis",
     "creator": "Jen",
     "id": 42
   },
@@ -1541,7 +1554,7 @@
     "desc": "Little girl befriends weird people.",
     "age": "14",
     "pronouns": "she/her",
-    "img": "",
+    "img": "ahmitia",
     "creator": "Jen",
     "id": 44
   },
@@ -1624,6 +1637,10 @@
       {
         "name": "Ronald",
         "status": "acquaintance"
+      },
+      {
+        "name": "Edgar",
+        "status": "acquaintance (music teacher)"
       }
     ],
     "desc": "A very calm girl who loves books and playing the violin.",

@@ -123,7 +123,7 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
             </div>
           </div>  
         </div> 
-      : <NotFound />
+      : <NotFound name={name} />
       }
     </>
   )
