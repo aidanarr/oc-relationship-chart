@@ -1,5 +1,6 @@
 import "../styles/Credits.scss"
 import { Link } from "react-router-dom"
+import PropTypes from "prop-types";
 
 const Credits = ({renderCharacters}) => {
 
@@ -18,7 +19,11 @@ const Credits = ({renderCharacters}) => {
                 {renderCharacters("Aida")}
             </div>            
             <div className="credits__author">
-                <p>• Created by Beailish</p>
+                <p>• Created by Beailish
+                <span>
+                        <a href="https://www.instagram.com/beailish/" target="_blank"><i className="fa-solid fa-link"></i></a>
+                    </span>
+                </p>
                 <div className="credits__author--charas">
                 {renderCharacters("Beailish")}
                 </div>
@@ -29,12 +34,12 @@ const Credits = ({renderCharacters}) => {
                 {renderCharacters("Jen")}
                 </div>
             </div>
-            <div className="credits__author">
+            {/* <div className="credits__author">
                 <p>• Created by Kibu</p>
                 <div className="credits__author--charas">
                 {renderCharacters("Kibu")}
                 </div>
-            </div>
+            </div> */}
             <div className="credits__author">
                 <p>• Created by Mizuki</p>
                 <div className="credits__author--charas">
@@ -50,5 +55,9 @@ const Credits = ({renderCharacters}) => {
     </div>
   )
 }
+
+Credits.propTypes = {
+    renderCharacters: PropTypes.func
+  };
 
 export default Credits

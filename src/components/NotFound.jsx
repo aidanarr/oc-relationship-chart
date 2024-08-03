@@ -1,10 +1,9 @@
 import "../styles/NotFound.scss"
 import { Link } from 'react-router-dom'
 import placeholder from "../images/placeholder.jpg"
+import PropTypes from "prop-types";
 
 const NotFound = ({name}) => {
-
-  console.log(name)
   
   return (
     <div className="notFound">
@@ -16,5 +15,10 @@ const NotFound = ({name}) => {
     </div>
   )
 }
+
+NotFound.propTypes = {
+  name: PropTypes.string
+};
+
 
 export default NotFound

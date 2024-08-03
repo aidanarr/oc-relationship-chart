@@ -111,7 +111,6 @@ const renderRelationships = (character) => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
-          <p>{chara.name}</p>
         </div>
       </div>
       <div className="status hidden">
@@ -134,7 +133,7 @@ function renderCharacters(creator) {
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
-          }} onClick={(ev) => handleClick(ev, chara.name)} className={`charabox`} id={chara.id} ><p>{chara.name}</p></div>
+          }} onClick={(ev) => handleClick(ev, chara.name)} className={`charabox`} id={chara.id} ></div>
 
           <div className={`charasheet hidden`}>
             <div>

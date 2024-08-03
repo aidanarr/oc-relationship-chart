@@ -2,8 +2,9 @@ import { useParams, Link } from "react-router-dom"
 import { useEffect, useState, useRef } from "react";
 import "../styles/Relationships.scss"
 import NotFound from "./NotFound";
+import PropTypes from "prop-types";
 
-const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked, top, left }) => {
+const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked, top, left}) => {
 
     const [playAnimation, setPlayAnimation] = useState(false)
     const [currentTop, setCurrentTop] = useState()
@@ -62,16 +63,21 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
                 opacity: 1;
                 top: ${top}px;
                 left: ${left}px;
-            
               }
-            
+
+              75% {
+                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.23);
+              }
+                  
               90% {
                 opacity: 1;
                 top: ${currentTop}px;
-                left: ${currentLeft}px;
+                left: ${currentLeft}px; 
               }
-    
+
+
               100% {
+                box-shadow: none;
                 opacity: 0;
                 display: none;
                 top: ${currentTop}px;
@@ -93,7 +99,6 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
           }}>
-            {data.name}
           </div>
           <div className={`charainfo hidden`}>
               <div>
@@ -128,5 +133,15 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
     </>
   )
 }
+
+Relationships.propTypes = {
+renderRelationships: PropTypes.func,
+renderArrows: PropTypes.func, 
+getCharaData: PropTypes.func, 
+clicked: PropTypes.bool, 
+top: PropTypes.number, 
+left: PropTypes.number
+};
+
 
 export default Relationships

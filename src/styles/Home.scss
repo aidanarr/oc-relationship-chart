@@ -10,8 +10,6 @@
     min-height: 100vh;
     padding-top: 25vh;
     padding-bottom: 10vh;
-    // overflow: scroll;
-    // overflow-x: hidden;
 
     &__container {
         width: 700px;
@@ -22,32 +20,14 @@
 
        }
 
-      //  @media (height > 730px) {
-        
-      //   &__container {
-      //     margin-bottom: 8%;
-      //   }
-      //  }
-
-      //  @media (max-width: 1024px) {
-      //   &__container {
-      //     margin-bottom: 15%;
-      //   }
-      //  }
-
        @media (min-width: 600px) and (max-width: 767px) {
         padding: 20px 20px 0 20px;
-         
-        // &__container {
-        //   margin-bottom: 15%;
-        // }
       }
 
       @media (min-width: 481px) and (max-width: 600px) {
          
         &__container {
           padding: 20px 30px 0 30px;
-          // margin-bottom: 60%;
           grid-template-columns: repeat(5, 1fr);
         }
       }
@@ -57,7 +37,6 @@
 
         &__container {
           padding: 20px 30px 0 30px;
-          // margin-bottom: 5%;
           height: fit-content;
           grid-template-columns: repeat(2, 1fr);
         }

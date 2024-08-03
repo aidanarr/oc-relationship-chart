@@ -9,7 +9,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 250px 0 150px;
-    // background-color: $light-grey;
     background-image: linear-gradient(transparent, $light-grey 20%);
 
     @media (max-width: 1024px) {
@@ -40,7 +39,7 @@
         &:hover {
             background: linear-gradient($light-grey, $light-grey) padding-box, linear-gradient(45deg, $pink 30%, $orange, $blue) border-box;
             border: 2px solid transparent;
-            background-size: 600% 600%;
+            background-size: 600%;
             animation: buttonAnimation 3s infinite;
         }
        
