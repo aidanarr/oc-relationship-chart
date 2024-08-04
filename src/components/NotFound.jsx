@@ -4,11 +4,17 @@ import placeholder from "../images/placeholder.jpg"
 import PropTypes from "prop-types";
 
 const NotFound = ({name}) => {
+
+  function addPlaceholder(ev) {
+    ev.target.src = placeholder;
+ }
   
   return (
     <div className="notFound">
+      <p className="notFound__name">{name}</p>
       <p>Character not registered.</p>
-      <img src={name ? `./src/images/${name}.png` : placeholder} />
+      <img src={`./src/images/${name}.png`} 
+      onError={addPlaceholder}/>
       <div className="home">
         <Link className="home__link" to="/">← Back</Link>
       </div>
