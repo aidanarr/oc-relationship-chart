@@ -106,7 +106,7 @@ const renderRelationships = (character) => {
     <div key={i}>
       <div onClick={(ev) => handleClick(ev, chara.name)} className="related-charas">
         <div  id={chara.name} className={`tree__chara border-${renderBorderColor(chara.status)}`} style={{  
-        backgroundImage: `url(./src/images/${chara.name}.png)`,
+        backgroundImage: `url(./src/images/${chara.name.toLowerCase()}.png)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
