@@ -111,12 +111,12 @@ const renderRelationships = (character) => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
+          <div className="status hidden">
+            <p>{chara.name}</p>
+            <p style={{color: `${renderColors(chara.status)}`}}>{chara.status}</p>
+          </div>
         </div>
-      </div>
-      <div className="status hidden">
-        <p>{chara.name}</p>
-        <p style={{color: `${renderColors(chara.status)}`}}>{chara.status}</p>
-      </div>
+      </div> 
     </div>
     )
   })
