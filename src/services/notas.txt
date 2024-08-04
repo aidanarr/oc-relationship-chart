@@ -59,3 +59,5 @@ rival
 47 amelie
 48 hans
 49 claire
+
+deployment: change ./src/images/ to /oc-relationship-chart/assets/
