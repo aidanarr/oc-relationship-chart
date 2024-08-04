@@ -106,7 +106,7 @@ const renderRelationships = (character) => {
     <div key={i}>
       <div onClick={(ev) => handleClick(ev, chara.name)} className="related-charas">
         <div  id={chara.name} className={`tree__chara border-${renderBorderColor(chara.status)}`} style={{  
-        backgroundImage: `url(./src/images/${chara.name}.png)`,
+        backgroundImage: `url(/oc-relationship-chart/assets/${chara.name}.png)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
@@ -129,7 +129,7 @@ function renderCharacters(creator) {
   return characters.map((chara, i) => {
       return <div key={i} className="credits-chara">
           <div style={{  
-          backgroundImage: `url(./src/images/${chara.img}.png)`,
+          backgroundImage: `url(/oc-relationship-chart/assets/${chara.img}.png)`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'

@@ -8,7 +8,7 @@ const NotFound = ({name}) => {
   return (
     <div className="notFound">
       <p>Character not registered.</p>
-      <img src={name ? `./src/images/${name}.png` : placeholder} />
+      <img src={name ? `/oc-relationship-chart/assets/${name}.png` : placeholder} />
       <div className="home">
         <Link className="home__link" to="/">← Back</Link>
       </div>

@@ -88,13 +88,13 @@ const Relationships = ({renderRelationships, renderArrows, getCharaData, clicked
           }
           </style> 
           <div className="animated-chara" style={{  
-          backgroundImage: `url(./src/images/${data.img}.png)`,
+          backgroundImage: `url(/oc-relationship-chart/assets/${data.img}.png)`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
           }}></div>
           <div ref={mainChara} className={`tree__chara tree__main-chara ${playAnimation ? "animationMainChara" : ""}`}  id={data.name} style={{  
-          backgroundImage: `url(./src/images/${data.img}.png)`,
+          backgroundImage: `url(/oc-relationship-chart/assets/${data.img}.png)`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'

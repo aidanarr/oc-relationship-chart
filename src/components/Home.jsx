@@ -28,7 +28,7 @@ const Home = ({data, setCoordinates}) => {
     function renderList() {
         return data.map((chara, i) => {
             return <div style={{  
-                backgroundImage: `url(./src/images/${chara.img}.png)`,
+                backgroundImage: `url(/oc-relationship-chart/assets/${chara.img}.png)`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'
