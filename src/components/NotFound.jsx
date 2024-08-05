@@ -13,7 +13,7 @@ const NotFound = ({name}) => {
     <div className="notFound">
       <p className="notFound__name">{name}</p>
       <p>Character not registered.</p>
-      <img src={`/oc-relationship-chart/assets/${name}.png`} 
+      <img src={`/oc-relationship-chart/assets/${name.toLowerCase()}.png`} 
       onError={addPlaceholder}/>
       <div className="home">
         <Link className="home__link" to="/">← Back</Link>
