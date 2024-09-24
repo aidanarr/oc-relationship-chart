@@ -20,7 +20,7 @@ const Credits = ({renderCharacters}) => {
             </div>            
             <div className="credits__author">
                 <p>• Created by Beailish
-                <span>
+                    <span>
                         <a href="https://www.instagram.com/beailish/" target="_blank"><i className="fa-solid fa-link"></i></a>
                     </span>
                 </p>
@@ -34,12 +34,16 @@ const Credits = ({renderCharacters}) => {
                 {renderCharacters("Jen")}
                 </div>
             </div>
-            {/* <div className="credits__author">
-                <p>• Created by Kibu</p>
+            <div className="credits__author">
+                <p>• Created by Kibu
+                    <span>
+                        <a href="https://kibu-me.tumblr.com/" target="_blank"><i className="fa-solid fa-link"></i></a>
+                    </span>
+                </p>
                 <div className="credits__author--charas">
                 {renderCharacters("Kibu")}
                 </div>
-            </div> */}
+            </div>
             <div className="credits__author">
                 <p>• Created by Mizuki</p>
                 <div className="credits__author--charas">

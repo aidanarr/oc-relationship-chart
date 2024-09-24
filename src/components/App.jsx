@@ -60,7 +60,7 @@ const renderColors = (status) => {
     return "#1c89b8"
   } else if (status.includes("family")) {
     return "#ff993f"
-  } else if (status.includes("rival")) {
+  } else if (status.includes("rival") || status.includes("enemy")) {
     return "#8d2133"
   } else return "gray"
 }
@@ -92,7 +92,7 @@ function renderBorderColor(status) {
     return "friend"
   } else if (status.includes("family")) {
     return "family"
-  } else if (status.includes("rival")) {
+  } else if (status.includes("rival") || status.includes("enemy")) {
     return "rival"
   } else return "misc"
 }

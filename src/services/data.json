@@ -1038,7 +1038,7 @@
       },
       {
         "name": "Zahak",
-        "status": "romantic interest"
+        "status": "romantic interest, partner"
       },
       {
         "name": "Hydra",
@@ -1050,11 +1050,11 @@
       },
       {
         "name": "Jorge",
-        "status": "acquaintance"
+        "status": "acquaintance, enemy"
       },
       {
         "name": "Eir",
-        "status": "acquaintance"
+        "status": "acquaintance, friend"
       }
     ],
     "desc": "An alcoholic vampire. Very soft inside.",
@@ -1086,7 +1086,7 @@
       },
       {
         "name": "Jorge",
-        "status": "acquaintance"
+        "status": "acquaintance, enemy"
       },
       {
         "name": "Eir",
@@ -1106,7 +1106,7 @@
     "relationships": [
       {
         "name": "Jorge",
-        "status": "romantic interest"
+        "status": "romantic interest, friend"
       },
       {
         "name": "Yin",
@@ -1130,11 +1130,11 @@
       },
       {
         "name": "Cecilia",
-        "status": "friend"
+        "status": "friend, mentor"
       },
       {
         "name": "Lucio",
-        "status": "friend"
+        "status": "friend, mentor"
       },
       {
         "name": "Piye",
@@ -1458,9 +1458,9 @@
     "name": "Lewis",
     "surname": "Müller",
     "relationships": [
-      { 
-        "name": "Sonia", 
-        "status": "partner (long distance)" 
+      {
+        "name": "Sonia",
+        "status": "partner (long distance)"
       },
       {
         "name": "Alistair",
@@ -1470,13 +1470,13 @@
         "name": "Diego",
         "status": "friend"
       },
-      { 
-        "name": "Josh", 
-        "status": "friend" 
+      {
+        "name": "Josh",
+        "status": "friend"
       },
-      { 
-        "name": "Lala", 
-        "status": "acquaintance" 
+      {
+        "name": "Lala",
+        "status": "acquaintance"
       }
     ],
     "desc": "Low-energy imsomniac guy.",
@@ -1734,5 +1734,211 @@
     "img": "claire",
     "creator": "Beailish",
     "id": 49
+  },
+  {
+    "name": "Zahak",
+    "surname": "Sarkany",
+    "relationships": [
+      {
+        "name": "Yin",
+        "status": "romantic interest, partner"
+      },
+      {
+        "name": "Mei",
+        "status": "rival"
+      },
+      {
+        "name": "Hydra",
+        "status": "family"
+      },
+      {
+        "name": "Jorge",
+        "status": "enemy"
+      },
+
+      {
+        "name": "Teo",
+        "status": "enemy, friend"
+      },
+
+      {
+        "name": "Eir",
+        "status": "friend, acquaintance"
+      }
+    ],
+    "desc": "A punk vampire who keeps making terrible decisions",
+    "age": "27",
+    "pronouns": "he/him",
+    "img": "zahak",
+    "creator": "Kibu",
+    "id": 50
+  },
+  {
+    "name": "Hydra",
+    "surname": "Sarkany",
+    "relationships": [
+      {
+        "name": "Yin",
+        "status": "friend"
+      },
+      {
+        "name": "Mei",
+        "status": "friend"
+      },
+      {
+        "name": "Zahak",
+        "status": "family (brother)"
+      },
+      {
+        "name": "Jorge",
+        "status": "enemy"
+      },
+      {
+        "name": "Teo",
+        "status": "friend, enemy"
+      },
+      {
+        "name": "Eir",
+        "status": "romantic interest, partner"
+      }
+    ],
+    "desc": "A punk vampire who has a short fuse but a kind heart",
+    "age": "25",
+    "pronouns": "she/her",
+    "img": "hydra",
+    "creator": "Kibu",
+    "id": 51
+  },
+  {
+    "name": "Jorge",
+    "surname": "Vlachos",
+    "relationships": [
+      {
+        "name": "Yin",
+        "status": "enemy"
+      },
+      {
+        "name": "Mei",
+        "status": "enemy"
+      },
+      {
+        "name": "Hydra",
+        "status": "enemy"
+      },
+      {
+        "name": "Zahak",
+        "status": "enemy, rival"
+      },
+      {
+        "name": "Teo",
+        "status": "romantic interest"
+      },
+      {
+        "name": "Eir",
+        "status": "acquaintance, enemy"
+      },
+      {
+        "name": "Cecilia",
+        "status": "enemy"
+      }
+    ],
+    "desc": "A charismatic priest obsessed with annihilation of vampires",
+    "age": "32",
+    "pronouns": "he/him",
+    "img": "jorge",
+    "creator": "Kibu",
+    "id": 52
+  },
+  {
+    "name": "Eir",
+    "surname": "de Voutharc",
+    "relationships": [
+      {
+        "name": "Yin",
+        "status": "friend"
+      },
+      {
+        "name": "Mei",
+        "status": "friend"
+      },
+      {
+        "name": "Hydra",
+        "status": "romantic interest, partner"
+      },
+      {
+        "name": "Zahak",
+        "status": "friend, acquaintance"
+      },
+      {
+        "name": "Teo",
+        "status": "friend"
+      },
+      {
+        "name": "Jorge",
+        "status": "acquaintance, enemy"
+      }
+    ],
+    "desc": "A disillusioned police officer trying her convictio",
+    "age": "26",
+    "pronouns": "she/her",
+    "img": "",
+    "creator": "Kibu",
+    "id": 53
+  },
+  {
+    "name": "Cecilia",
+    "surname": "",
+    "relationships": [
+      {
+        "name": "Lucio",
+        "status": "friend"
+      },
+      {
+        "name": "Piye",
+        "status": "friend"
+      },
+      {
+        "name": "Teo",
+        "status": "friend, mentee"
+      },
+      {
+        "name": "Jorge",
+        "status": "acquaintance, enemy"
+      }
+    ],
+    "desc": "A very ancient vampire, the gentlest of souls",
+    "age": "56",
+    "pronouns": "she/her",
+    "img": "cecilia",
+    "creator": "Kibu",
+    "id": 54
+  },
+  {
+    "name": "Lucio",
+    "surname": "",
+    "relationships": [
+      {
+        "name": "Cecilia",
+        "status": "friend"
+      },
+      {
+        "name": "Piye",
+        "status": "partner"
+      },
+      {
+        "name": "Teo",
+        "status": "friend, mentee"
+      },
+      {
+        "name": "Jorge",
+        "status": "acquaintance, enemy"
+      }
+    ],
+    "desc": "An ancient vampire. Stoic and very tired, but still wants to believe in the good in people.",
+    "age": "33",
+    "pronouns": "he/him",
+    "img": "",
+    "creator": "Kibu",
+    "id": 55
   }
 ]
