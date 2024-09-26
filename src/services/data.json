@@ -1766,7 +1766,7 @@
         "status": "friend, acquaintance"
       }
     ],
-    "desc": "A punk vampire who keeps making terrible decisions",
+    "desc": "A punk vampire who keeps making terrible decisions.",
     "age": "27",
     "pronouns": "he/him",
     "img": "zahak",
@@ -1802,7 +1802,7 @@
         "status": "romantic interest, partner"
       }
     ],
-    "desc": "A punk vampire who has a short fuse but a kind heart",
+    "desc": "A punk vampire who has a short fuse but a kind heart.",
     "age": "25",
     "pronouns": "she/her",
     "img": "hydra",
@@ -1842,7 +1842,7 @@
         "status": "enemy"
       }
     ],
-    "desc": "A charismatic priest obsessed with annihilation of vampires",
+    "desc": "A charimastic priest obsessed with the annihilation of vampires.",
     "age": "32",
     "pronouns": "he/him",
     "img": "jorge",
@@ -1878,7 +1878,7 @@
         "status": "acquaintance, enemy"
       }
     ],
-    "desc": "A disillusioned police officer trying her convictio",
+    "desc": "A disillusioned police office trying to find again her conviction once again.",
     "age": "26",
     "pronouns": "she/her",
     "img": "eir",
@@ -1906,7 +1906,7 @@
         "status": "acquaintance, enemy"
       }
     ],
-    "desc": "A very ancient vampire, the gentlest of souls",
+    "desc": "A very ancient vampire, the gentlest of souls.",
     "age": "56",
     "pronouns": "she/her",
     "img": "cecilia",
